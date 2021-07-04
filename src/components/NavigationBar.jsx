@@ -66,7 +66,7 @@ const NavigationBar = () => {
               active={activeItem === "provkorning"}
               onClick={handleItemClick}
               as={Link}
-              to={{ pathname: "/kontakt-provkorning" }}
+              to={{ pathname: "/provkorning" }}
             >
               Boka Provkörning
             </Menu.Item>
@@ -86,7 +86,7 @@ const NavigationBar = () => {
               active={activeItem === "kontakt"}
               onClick={handleItemClick}
               as={Link}
-              to={{ pathname: "/kontakt-provkorning" }}
+              to={{ pathname: "/kontakt" }}
             >
               Kontakt
             </Menu.Item>

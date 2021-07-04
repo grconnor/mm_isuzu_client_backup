@@ -1,45 +1,26 @@
-import React, { useState } from 'react';
-// import { Container, Button, Form } from "semantic-ui-react";
+import React from 'react';
+import "./provkor.css"
 
-// Component Imports
+// Image Imports
+import single from "../../images/isuzu_d-max_single-cab_xrs_1000x500.png";
+import double from "../../images/isuzu_d-max_double-cab_xrx_1000x500.png";
+import extended from "../../images/isuzu_d-max_extended-cab_xrm_1000x500.png";
 
-const ContactBook = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message, question, meddelande, forefternamn, foretag, postnummer, stad, telefon, epostadress, registreringsnummer, policy } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-      question: question.value,
-      meddelande: meddelande.value,
-      forefternamn: forefternamn.value,
-      foretag: foretag.value,
-      postnummer: postnummer.value,
-      stad: stad.value,
-      telefon: telefon.value,
-      epostadress: epostadress.value,
-      registreringsnummer: registreringsnummer.value,
-      policy: policy.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-
-  };
+const Provkor = () => {
 
   return (
     <>
-      <h1 id="contact-header">FYLL I DINA UPPGIFTER NEDAN - SÅ KONTAKTAR VI DIG INOM KORT</h1>
+      <ul>
+        <li><input type="checkbox" id="car1" />
+          <label for="car1"><img src={single} alt="single cab" /></label>
+        </li>
+        <li><input type="checkbox" id="car2" />
+          <label for="car2"><img src={double} alt="double cab" /></label>
+        </li>
+        <li><input type="checkbox" id="car3" />
+          <label for="car3"><img src={extended} alt="extended cab" /></label>
+        </li>
+      </ul>
       <form onsubmit={handleSubmit} id="contactbookform" name="contactbookform">
         <label for="question">VAD GÄLLER DIN FRÅGA</label>
         <select id="question" name="question" form="contactbookform">
@@ -75,4 +56,4 @@ const ContactBook = () => {
   )
 }
 
-export default ContactBook;
+export default Provkor
