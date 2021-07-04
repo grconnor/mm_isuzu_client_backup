@@ -1,12 +1,13 @@
 // Library Imports:
+import "./provkor.css";
 import React, { useState } from "react";
-// import { Container, Button, Form } from "semantic-ui-react";
-
-// Component Imports:
 
 // Image Imports:
+import SingleCab from "../../images/isuzu_d-max_single-cab_xrs_1000x500.png";
+import DoubleCab from "../../images/isuzu_d-max_double-cab_xrx_1000x500.png";
+import ExtendedCab from "../../images/isuzu_d-max_extended-cab_xrm_1000x500.png";
 
-const ContactBook = () => {
+const Provkor = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -53,36 +54,34 @@ const ContactBook = () => {
     alert(result.status);
   };
 
-  // function Numcheck() {
-  //   if (this.value.length > this.maxLength)
-  //     this.value = this.value.slice(0, this.maxLength);
-  //   else (console.log("Ouch"))
-  // }
-
   return (
     <>
-      <h1 id="contact-header">
-        FYLL I DINA UPPGIFTER NEDAN - SÅ KONTAKTAR VI DIG INOM KORT
-      </h1>
       <form onsubmit={handleSubmit} id="contactbookform" name="contactbookform">
-        <label for="question">VAD GÄLLER DIN FRÅGA</label>
-        <select id="question" name="question" form="contactbookform">
-          <option value="nybilskop">Nybilsköp</option>
-          <option value="provkorning">Provkörning</option>
-          <option value="offert">Offert</option>
-          <option value="allmanafragor">
-            Allmäna frågor om Mobility Motors
-          </option>
-        </select>
-        <label for="meddelande">Meddelande</label>
-        <input
-          id="meddelande"
-          name="meddelande"
-          type="text"
-          placeholder="Meddelande"
-        />
+        <div id="selection">
+          <h1>Välj den bil du vill provköra</h1>
+          <ul>
+            <li>
+              <input type="checkbox" id="car1" />
+              <label for="car1" id="checkbox">
+                <img src={SingleCab} alt="single-cab" />
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="car2" />
+              <label for="car2" id="checkbox">
+                <img src={DoubleCab} alt="double-cab" />
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" id="car3" />
+              <label for="car3" id="checkbox">
+                <img src={ExtendedCab} alt="extended-cab" />
+              </label>
+            </li>
+          </ul>
+        </div>
 
-        <h1 id="contact-info">BERÄTTA FÖR OSS VEM DU ÄR</h1>
+        <h1 id="contact-info">FYLL I DINA KONTAKTUPPGIFTER</h1>
         <label for="forefternamn">För-och efternamn</label>
         <input
           id="forefternamn"
@@ -122,32 +121,28 @@ const ContactBook = () => {
           type="text"
           placeholder="example@mail.com"
         />
-        <label for="registreringsnummer">
-          Registreringsnummer (krävs för frågor gällande din bil)
-        </label>
         <br />
-        <br />
-        <input
-          id="registreringsnummer"
-          name="registreringsnummer"
-          type="text"
-          placeholder="ABC 123"
-        />
-        <br />
-        <br />
+        <input id="policy" name="policy" type="checkbox" />
         <label for="policy">
           Jag vill ta emot marknadsföring från Mobility Motors Sverige via
           e-post och telefon/meddelandetjänster. Detta samtycke kan när som
           helst återkallas. Mer utförlig information finns i vår
           sekretesspolicy.
         </label>
-        <input id="policy" name="policy" type="checkbox" />
         <button id="submit-btn" type="submit">
-          Skicka frågan
+          Skicka
         </button>
+        <br />
+        <p id="sekretesspolicy">
+          De uppgifter du registrerar är konfidentiella och kommer endast att
+          föras vidare till bolag inom samma koncern samt anknutna
+          återförsäljare för att hantera och följa upp din förfrågan. Alla
+          personuppgifter sparas och hanteras i enlighet med gällande datalag
+          för personuppgifter. Se vår sekretesspolicy för mer information.
+        </p>
       </form>
     </>
   );
 };
 
-export default ContactBook;
+export default Provkor;

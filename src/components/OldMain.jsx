@@ -1,4 +1,6 @@
-import React from 'react'
+// Library Imports:
+import React from "react";
+import { Button } from "semantic-ui-react";
 
 const OldMain = () => {
   return (
@@ -6,7 +8,10 @@ const OldMain = () => {
       <div className="ec-image-wrapper">
         <div className="video-hero-desktop">
           <video id="background-video" playsInline autoPlay muted loop>
-            <source src="https://www.isuzusverige.se/globalassets/isuzu/video/hero/isuzu_entreprenad_1280x720_hero.mp4" type="video/mp4" />
+            <source
+              src="https://www.isuzusverige.se/globalassets/isuzu/video/hero/isuzu_entreprenad_1280x720_hero.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>
@@ -19,14 +24,15 @@ const OldMain = () => {
               "NYA D-MAX"
             </h1>
             <p>
-              <Button id="provkorning-btn" href="/kontakt-provkorning">Boka Provkörning</Button>
+              <Button id="provkorning-btn" href="/kontakt-provkorning">
+                Boka Provkörning
+              </Button>
             </p>
           </div>
         </div>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default OldMain
+export default OldMain;

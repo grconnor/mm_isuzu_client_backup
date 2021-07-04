@@ -1,9 +1,15 @@
+// Library Imports:
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Header, Menu, Grid, Sticky } from "semantic-ui-react";
-import mobilityLogo from "../images/mobility_motors_logo.png";
+
+// Component Imports:
+
+// Image Imports:
 import isuzuLogo from "../images/isuzu_logo.png"
 // import maxusLogo from "../images/maxus_logo.png";
+import mobilityLogo from "../images/mobility_motors_logo.png";
+
 
 const NavigationBar = () => {
   const [activeItem, setActiveItem] = useState("")
@@ -18,7 +24,7 @@ const NavigationBar = () => {
             <Grid.Column id="navbar-row-mobility" width={2} textAlign="center" href="/">
               <img id="mobility-logo" src={mobilityLogo} alt="Mobility Motors" />
             </Grid.Column>
-            <Grid.Column id="navbar-row-isuzu" width={2} textAlign="center">
+            <Grid.Column id="navbar-row-isuzu" width={2} textAlign="center" href="/">
               <img id="isuzu-logo" src={isuzuLogo} alt="Isuzu" height="25px" />
             </Grid.Column>
             <Grid.Column id="empty-column" width={4}></Grid.Column>
@@ -66,7 +72,7 @@ const NavigationBar = () => {
               active={activeItem === "provkorning"}
               onClick={handleItemClick}
               as={Link}
-              to={{ pathname: "/kontakt-provkorning" }}
+              to={{ pathname: "/provkorning" }}
             >
               Boka Provkörning
             </Menu.Item>
@@ -86,7 +92,7 @@ const NavigationBar = () => {
               active={activeItem === "kontakt"}
               onClick={handleItemClick}
               as={Link}
-              to={{ pathname: "/kontakt-provkorning" }}
+              to={{ pathname: "/kontakt" }}
             >
               Kontakt
             </Menu.Item>

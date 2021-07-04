@@ -1,12 +1,14 @@
+// Library Imports:
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-// Component imports
-
-import NavigationBar from "./components/NavigationBar";
-import ContactBook from "./components/ContactBook";
+// Component Imports:
 import Main from "./components/Main";
-import {  } from "module";
+import Footer from "./components/Footer";
+import Provkor from "./components/Provkor/Provkor";
+import ContactBook from "./components/ContactBook";
+import NavigationBar from "./components/NavigationBar";
+import MainFooter from "./components/Footer/MainFooter";
 
 const App = () => {
   return (
@@ -14,10 +16,13 @@ const App = () => {
       <NavigationBar />
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/kontakt-provkorning" component={ContactBook} />
+        <Route exact path="/kontakt" component={ContactBook} />
+        <Route exact path="/provkorning" component={Provkor} />
       </Switch>
+      {/* <Footer /> */}
+      {/* <MainFooter /> */}
     </>
-  )
-}
+  );
+};
 
 export default App;
