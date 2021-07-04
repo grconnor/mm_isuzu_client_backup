@@ -1,31 +1,29 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Header, Menu, Grid, Button } from "semantic-ui-react";
+import { Header, Menu, Grid, Sticky } from "semantic-ui-react";
 import mobilityLogo from "../images/mobility_motors_logo.png";
+import isuzuLogo from "../images/isuzu_logo.png"
 // import maxusLogo from "../images/maxus_logo.png";
 
 const NavigationBar = () => {
-  const [activeItem, setActiveItem] = useState("home");
+  const [activeItem, setActiveItem] = useState("")
   const handleItemClick = ({ name }) => {
     setActiveItem(name);
   };
   return (
     <div className="navbar-container">
-      <Header as="h1" id="navbar-header">
+      <Header id="navbar-header">
         <Grid id="navbar-grid">
           <Grid.Row columns={4} id="navbar-row">
-            <Grid.Column id="navbar-row-mobility" width={2} textAlign="center">
+            <Grid.Column id="navbar-row-mobility" width={2} textAlign="center" href="/">
               <img id="mobility-logo" src={mobilityLogo} alt="Mobility Motors" />
             </Grid.Column>
-            {/* <Grid.Column id="navbar-row-motors" width={2} textAlign="center">
-              Motors
+            <Grid.Column id="navbar-row-isuzu" width={2} textAlign="center">
+              <img id="isuzu-logo" src={isuzuLogo} alt="Isuzu" height="25px" />
             </Grid.Column>
-            <Grid.Column id="navbar-row-maxus" widht={2} textAlign="center">
-              <img id="maxus-logo" src={maxusLogo} alt="Maxus" />
-            </Grid.Column> */}
             <Grid.Column id="empty-column" width={4}></Grid.Column>
             <Grid.Column id="navbar-row-slogan" width={4} textAlign="right">
-              Hitta din bil idag
+              Hitta din bil idag!
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -35,7 +33,7 @@ const NavigationBar = () => {
             <Menu.Item
               id="navbar-navigation-menu-modeller"
               name="modeller"
-              active={activeItem === "modeller"}
+              active={activeItem === "modeller" }
               onClick={handleItemClick}
               as={Link}
               to={{ pathname: "/modeller" }}
@@ -48,7 +46,7 @@ const NavigationBar = () => {
               active={activeItem === "tillbehor"}
               onClick={handleItemClick}
               as={Link}
-              to={{ pathname: "https://www.izuzusverige.se/tillbehor/" }}
+              to={{ pathname: "https://isuzusverige.se/tillbehor/" }}
             >
               Tillbehör
             </Menu.Item>
@@ -60,7 +58,7 @@ const NavigationBar = () => {
               as={Link}
               to={{ pathname: "/om-oss" }}
             >
-              Om oss
+              Om Oss
             </Menu.Item>
             <Menu.Item
               id="navbar-navigation-menu-provkorning"
