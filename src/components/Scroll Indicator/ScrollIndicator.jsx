@@ -1,8 +1,13 @@
 // Library Imports:
-import React from 'react';
+import React from "react";
+
+// Component Imports:
+
+// Image Imports:
 
 // CSS Imports:
 import "./scrollindicator.css";
+
 
 const ScrolIndicator = () => {
   return (
@@ -12,7 +17,7 @@ const ScrolIndicator = () => {
       <div className="scroll-indicator"></div>
       <span className="scroll-text">Scroll down</span>
     </div>
-  )
-}
+  );
+};
 
 export default ScrolIndicator;

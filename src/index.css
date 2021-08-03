@@ -146,11 +146,7 @@ input[type=number] {
   padding-top: 75px;
 }
 
-/* .main-content {
-  padding: 20px;
-  min-height: 161%;
-  margin: 0 auto -50px;
-} */
+/* Main Footer */
 
 /* #main-footer {
   height: 30px;
@@ -168,6 +164,8 @@ input[type=number] {
   text-align: center;
   height: 2.5rem;
 }
+
+/* Finally */
 
 .finally-box {
   display: flex;

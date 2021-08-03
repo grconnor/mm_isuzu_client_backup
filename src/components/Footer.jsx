@@ -6,6 +6,7 @@ import { Divider, Grid, Button, Segment } from "semantic-ui-react";
 
 // Image Imports:
 
+
 const Footer = () => {
   return (
     <Segment id="footer">
@@ -27,7 +28,6 @@ const Footer = () => {
           </Button>
         </Grid.Column>
       </Grid>
-
       <Divider vertical></Divider>
     </Segment>
   );

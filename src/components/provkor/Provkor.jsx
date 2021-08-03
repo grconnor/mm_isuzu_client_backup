@@ -1,13 +1,19 @@
+// Switch to responsive.
+
 // Library Imports:
 import "./provkor.css";
 import React, { useState } from "react";
+
+// Component Imports:
 
 // Image Imports:
 import SingleCab from "../../images/isuzu_d-max_single-cab_xrs_1000x500.png";
 import DoubleCab from "../../images/isuzu_d-max_double-cab_xrx_1000x500.png";
 import ExtendedCab from "../../images/isuzu_d-max_extended-cab_xrm_1000x500.png";
 
+
 const Provkor = () => {
+  // eslint-disable-next-line no-unused-vars
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();

@@ -1,3 +1,5 @@
+// Switch to responsive.
+
 // Library Imports:
 import React, { useState } from "react";
 // import { Container, Button, Form } from "semantic-ui-react";
@@ -7,6 +9,7 @@ import React, { useState } from "react";
 // Image Imports:
 
 const ContactBook = () => {
+  // eslint-disable-next-line no-unused-vars
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -52,12 +55,6 @@ const ContactBook = () => {
     let result = await response.json();
     alert(result.status);
   };
-
-  // function Numcheck() {
-  //   if (this.value.length > this.maxLength)
-  //     this.value = this.value.slice(0, this.maxLength);
-  //   else (console.log("Ouch"))
-  // }
 
   return (
     <>
