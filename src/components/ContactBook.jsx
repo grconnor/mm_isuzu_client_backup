@@ -75,14 +75,13 @@ const ContactBook = () => {
           </option>
         </select>
         <label for="meddelande">Meddelande</label>
-<<<<<<< HEAD
         <input
           id="meddelande"
           name="meddelande"
           type="text"
           placeholder="Meddelande"
         />
-
+        
         <h1 id="contact-info">BERÄTTA FÖR OSS VEM DU ÄR</h1>
         <label for="forefternamn">För-och efternamn</label>
         <input
@@ -142,27 +141,6 @@ const ContactBook = () => {
           helst återkallas. Mer utförlig information finns i vår
           sekretesspolicy.
         </label>
-=======
-        <input id="meddelande" name="meddelande" type="text" placeholder="Meddelande" />
-
-        <h1 id="contact-info">BERÄTTA FÖR OSS VEM DU ÄR</h1>
-        <label for="forefternamn">För-och efternamn</label>
-        <input id="forefternamn" name="forefternamn" type="text" placeholder="John Wayde" />
-        <label for="foretag">Företag</label>
-        <input id="foretag" name="foretag" type="text" placeholder="Mobility Motors" />
-        <label for="postnummer">Postnummer</label>
-        <input id="postnummer" name="postnummer" type="number" placeholder="141 00" maxLength="5" />
-        <label for="stad">Stad</label>
-        <input id="stad" name="stad" type="text" placeholder="Stockholm" />
-        <label for="telefon">Telefon</label>
-        <input id="telefon" name="telefon" type="number" placeholder="" maxLength="10" />
-        <label for="epostadress">E-postadress</label>
-        <input id="epostadress" name="epostadress" type="text" placeholder="example@mail.com" />
-        <label for="registreringsnummer">Registreringsnummer (krävs för frågor gällande din bil)</label>
-        <input id="registreringsnummer" name="registreringsnummer" type="text" placeholder="ABC 123" />
-        <label for="epostadress">E-postadress</label>
-        <label for="policy">Jag vill ta emot marknadsföring från Mobility Motors Sverige via e-post och telefon/meddelandetjänster. Detta samtycke kan när som helst återkallas. Mer utförlig information finns i vår sekretesspolicy.</label>
->>>>>>> 132ea8dc1ee5bc04b096ec20f79c44f9d35cee10
         <input id="policy" name="policy" type="checkbox" />
         <button id="submit-btn" type="submit">
           Skicka frågan
