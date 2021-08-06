@@ -1,14 +1,15 @@
 // Library Imports:
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Header, Menu, Grid } from "semantic-ui-react";
+import React, { useState } from "react";
+import { Header, Menu, Grid, Dropdown } from "semantic-ui-react";
 
 // Component Imports:
 
 // Image Imports:
-import isuzuLogo from "../images/isuzu_logo.png";
-import mobilityLogo from "../images/mobility_motors_logo.png";
+import isuzuLogo from "../images/logos/isuzu_logo.png";
+import mobilityLogo from "../images/logos/mobility_motors_logo.png";
 
+const MenuColor = ["white"];
 
 const NavigationBar = () => {
   const [activeItem, setActiveItem] = useState("");
@@ -47,7 +48,7 @@ const NavigationBar = () => {
           </Grid.Row>
         </Grid>
         <Header.Subheader id="navbar-navigation">
-          <Menu id="navbar-navigation-menu">
+          <Menu id="navbar-navigation-menu" color={MenuColor}>
             <Menu.Item></Menu.Item>
             <Menu.Item
               id="navbar-navigation-menu-modeller"
@@ -59,6 +60,13 @@ const NavigationBar = () => {
             >
               Modeller
             </Menu.Item>
+            <Menu horizontal>
+              <Dropdown item simple text="Köpa & Äga">
+                <Dropdown.Menu>
+                  
+                </Dropdown.Menu>
+              </Dropdown>
+            </Menu>
             <Menu.Item
               id="navbar-navigation-menu-tillbehor"
               name="tillbehor"
@@ -68,6 +76,15 @@ const NavigationBar = () => {
             >
               Tillbehör
             </Menu.Item>
+            <Menu horizontal>
+              <Dropdown item simple text="Om Oss">
+                <Dropdown.Menu>
+                  <Dropdown.Item>Om Oss</Dropdown.Item>
+                  <Dropdown.Item>Pressrum</Dropdown.Item>
+                  <Dropdown.Item>Avtalspartners</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </Menu>
             <Menu.Item
               id="navbar-navigation-menu-om-oss"
               name="om-oss"
@@ -116,3 +133,27 @@ const NavigationBar = () => {
 };
 
 export default NavigationBar;
+
+{/* <Menu vertical>
+  <Dropdown item simple text="NYA D-MAX">
+    <Dropdown.Item>Lär dig allt om nya D-Max</Dropdown.Item>
+    <Dropdown.Item>Mer Kapacitet</Dropdown.Item>
+    <Dropdown.Item>Mer Styrka</Dropdown.Item>
+    <Dropdown.Item>Mer Komfort</Dropdown.Item>
+    <Dropdown.Item>Mer Säkerhet</Dropdown.Item>
+    <Dropdown.Item>Tester och Omdömen</Dropdown.Item>
+    <Dropdown.Item>Broschyr</Dropdown.Item>
+  </Dropdown>
+</Menu>
+<Menu vertical>
+  <Dropdown item simple text="Finans & Försäkring">
+    <Dropdown.Item>Prislista</Dropdown.Item>
+    <Dropdown.Item>Offertförfrågan</Dropdown.Item>
+    <Dropdown.Item>Begagnat</Dropdown.Item>
+    <Dropdown.Item>Isuzu Försäkring</Dropdown.Item>
+    <Dropdown.Item>Serviceavtal</Dropdown.Item>
+    <Dropdown.Item>Garantier</Dropdown.Item>
+    <Dropdown.Item>Återvinning</Dropdown.Item>
+    <Dropdown.Item>HVO100</Dropdown.Item>‏‏‎‎‏‏‎‏‏
+  </Dropdown>
+</Menu> */}

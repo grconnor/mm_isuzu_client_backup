@@ -5,7 +5,7 @@ import { Switch, Route } from "react-router-dom";
 // Component Imports:
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Provkor from "./components/provkor/Provkor";
+import Provkor from "./components/Provkor/Provkor";
 import ContactBook from "./components/ContactBook";
 import NavigationBar from "./components/NavigationBar";
 import MainFooter from "./components/Footer/MainFooter";

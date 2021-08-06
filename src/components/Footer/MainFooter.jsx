@@ -23,7 +23,7 @@ const MainFooter = () => {
         <Row>
           <Column>
             <Heading>Personuppgifter</Heading>
-            <FooterLink href="#">Privacy Notice</FooterLink>
+            <FooterLink href="https://www.mbil.se/om-oss/integritetspolicy">Privacy Notice</FooterLink>
             <FooterLink href="#">Cookies och villkor</FooterLink>
             <FooterLink href="#">Cookie Preferences</FooterLink>
           </Column>
@@ -45,17 +45,17 @@ const MainFooter = () => {
           </Column>
           <Column>
             <Heading>Sociala Medier</Heading>
-            <FooterLink href="#">
+            <FooterLink href="https://www.facebook.com/mbil.se">
               <i className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px" }}>Facebook</span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://www.instagram.com/mobilitymotors">
               <i className=" fab fa-instagram">
                 <span style={{ marginLeft: "10px" }}>Instagram</span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://www.youtube.com/channel/UC6JdtUwfUpEnY5G4HO_B9zQ">
               <i className="fab fa-youtube">
                 <span style={{ marginLeft: "10px" }}>Youtube</span>
               </i>

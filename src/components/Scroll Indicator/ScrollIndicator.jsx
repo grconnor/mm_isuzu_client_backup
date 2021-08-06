@@ -12,10 +12,12 @@ import "./scrollindicator.css";
 const ScrolIndicator = () => {
   return (
     <div className="scroll-container">
-      <div className="scroll-indicator">l</div>
-      <div className="scroll-indicator"></div>
-      <div className="scroll-indicator"></div>
-      <span className="scroll-text">Scroll down</span>
+      <div className="scroll-container-inner">
+        <div className="scroll-indicator">l</div>
+        <div className="scroll-indicator"></div>
+        <div className="scroll-indicator"></div>
+        <span className="scroll-text">Scroll down</span>
+      </div>
     </div>
   );
 };

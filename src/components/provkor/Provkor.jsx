@@ -7,9 +7,9 @@ import React, { useState } from "react";
 // Component Imports:
 
 // Image Imports:
-import SingleCab from "../../images/isuzu_d-max_single-cab_xrs_1000x500.png";
-import DoubleCab from "../../images/isuzu_d-max_double-cab_xrx_1000x500.png";
-import ExtendedCab from "../../images/isuzu_d-max_extended-cab_xrm_1000x500.png";
+import SingleCab from "../../images/single/isuzu_d-max_single-cab_xrs_1000x500.png";
+import DoubleCab from "../../images/double/isuzu_d-max_double-cab_xrx_1000x500.png";
+import ExtendedCab from "../../images/extended/isuzu_d-max_extended-cab_xrm_1000x500.png";
 
 
 const Provkor = () => {

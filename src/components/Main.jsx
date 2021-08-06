@@ -3,7 +3,8 @@ import React from "react";
 
 // Component Imports:
 import Footer from "./Footer";
-import Finally from "./Finally";
+import Info from "./Info/info";
+import Antligen from "./Antligen/Antligen";
 import BackgroundVideo from "./BackgroundVideo";
 // import MainFooter from "./Footer/MainFooter";
 
@@ -14,7 +15,8 @@ const Main = () => {
   return (
     <>
       <BackgroundVideo />
-      <Finally />
+      <Antligen />
+      <Info />
       {/* <Footer /> */}
     </>
   );

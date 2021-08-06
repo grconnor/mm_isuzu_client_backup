@@ -56,7 +56,7 @@ code {
 }
 
 #navbar-row-slogan {
-
+  padding-top: 1%;
 }
 
 .navbar-container {
@@ -72,16 +72,34 @@ code {
 
 #navbar-navigation-menu {
   justify-content: center;
-  text-transform: uppercase !important;
+  text-transform: capitalize !important;
+  background-color: #9b9b9b;
 }
 
 #navbar-navigation-menu.ui.menu {
   text-transform: uppercase !important;
 }
 
+.ui.menu.item {
+  color: white;
+  background-color: red !important;
+}
+
 /* Main Page Video, Text and Scroll Indicator */
 
-.video-container {
+#nyadmax {
+  /* width: 100vw;
+  height: 75vh; */
+  position: relative;
+  z-index: 0;
+  object-fit: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 5%;
+}
+
+/* .video-container {
   position: relative;
   height: 675px;
   overflow: hidden;
@@ -89,17 +107,10 @@ code {
   margin-top: 0;
   z-index: 0;
   width: 100%;
-}
+} */
 
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
+.video-container {
   position: relative;
-  z-index: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .text-overlay {
@@ -107,7 +118,7 @@ video {
   width: 50vw;
   height: 25vh;
   color: white;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0px);
   font-size: 10px;
   bottom: 50px;
   left: 30px;
@@ -116,6 +127,13 @@ video {
 
 #provkorning-btn {
   background-color: #c31631;
+  border: 2px solid black;
+  color: white;
+  font-size: 2em !important;
+  position: relative;
+  width: 35%;
+  margin-top: 5%;
+  min-height: 0 !important;
 }
 
 .ec-text-wrapper {
@@ -167,15 +185,16 @@ input[type=number] {
 
 /* Finally */
 
-.finally-box {
-  display: flex;
-  align-items: center;
-}
-
 #finally-img {
   width: 300px;
+  float: right;
 }
 
-#finally-para span {
-  display: block;
+.ui.menu .dropdown.item .menu {
+  width: 300%;
+  background-color: #9b9b9b;
 }
+
+#navbar-navigation-menu > div.ui.menu {
+  background-color: #9b9b9b;
+ }
