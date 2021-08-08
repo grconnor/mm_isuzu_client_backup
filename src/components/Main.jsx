@@ -5,6 +5,7 @@ import React from "react";
 import Footer from "./Footer";
 import Info from "./Info/Info";
 import Funderar from "./Funderar/Funderar";
+import Betyder from "./Betyder/Betyder";
 import Antligen from "./Antligen/Antligen";
 import BackgroundVideo from "./BackgroundVideo";
 // import MainFooter from "./Footer/MainFooter";
@@ -19,6 +20,7 @@ const Main = () => {
       <Antligen />
       <Info />
       <Funderar />
+      <Betyder />
       {/* <Footer /> */}
     </>
   );

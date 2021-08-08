@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+.flexbox-betyder-outer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100vw;
+  margin-left: -157px;
+  height: 895px;
+}
+
+.flexbox-betyder-heading-container h1 {
+  display: flex;
+  position: relative;
+  color: #595959;
+  justify-content: center;
+  padding-top: 4%;
+  font-family: "Evogria";
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
+
+.flexbox-betyder-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-top: 0;
+  margin-left: 150px;
+  background-color: white;
+  width: 80vw;
+  height: 725px;
+  height: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox-betyder-item {
+  display: block;
+  margin-top: -5%;
+  flex-direction: row;
+  align-items: center;
+  color: #595959;
+  text-align: left;
+  width: 500px;
+  font-weight: bold;
+  font-family: "Eina01-Regular";
+}
+
+.flexbox-betyder-item h1 {
+  font-weight: 100;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 35px;
+  font-family: "Evogria";
+}
+
+.flexbox-betyder-item p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.flexbox-betyder-item-image {
+  height: 240px;
+  width: 240px;
+}
+
+.flexbox-betyder-item .ui.button {
+  font-family: "Evigrua";
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #404040;
+  color: white;
+  line-height: 27px;
+  font-style: normal;
+}
+
+.flexbox-betyder-item .ui.animated.button .visible.content {
+  font-weight: 400;
+}
+
+.flexbox-betyder-item-1 {
+  
+}
+
+.flexbox-betyder-item-2 {
+  
+}
+
+.flexbox-betyder-item-3 {
+  
+}
+
+.flexbox-betyder-item-4 {
+  
+}

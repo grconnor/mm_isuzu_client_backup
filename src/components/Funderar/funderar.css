@@ -3,13 +3,17 @@
   src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
 
 .flexbox-funderar-container {
   display: flex;
   position: relative;
   margin-top: 0;
   border: 3px solid purple;
-  background-color: white;
+  background-color: #D9D9D9;
   width: 100vw;
   height: 504px;
   margin-left: -157px;
@@ -30,8 +34,10 @@
   display: flex;
   position: relative;
   flex-direction: column;
+  justify-content: baseline;
   margin-top: ;
-  background-color: white;
+  background-color: #D9D9D9;
+  color: #595959;
   width: ;
   height: ;
   justify-content: space-evenly;
@@ -39,7 +45,7 @@
   align-items: center;
   text-align: center;
   font-weight: bold;
-  font-family: "Eina01-Regular";
+  font-family: "Evogria";
 }
 
 
@@ -47,7 +53,6 @@
 .flexbox-funderar-text-container h1 {
   font: bold;
   font-size: 50px;
-  font-family: "Eina01-Regular";
   margin-top: 5%;
 }
 
@@ -64,4 +69,5 @@
   background-color: #C31631;
   color: white;
   margin-top: 5%;
+  font-family: "Evogria";
 }
