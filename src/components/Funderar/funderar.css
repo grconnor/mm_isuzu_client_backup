@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+
+.flexbox-funderar-container {
+  display: flex;
+  position: relative;
+  margin-top: 0;
+  border: 3px solid purple;
+  background-color: white;
+  width: 100vw;
+  height: 504px;
+  margin-left: -157px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#funderar-video {
+  width: 520px;
+  height: 347;
+}
+
+.flexbox-funderar-video {
+
+}
+
+.flexbox-funderar-text-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: ;
+  background-color: white;
+  width: ;
+  height: ;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Eina01-Regular";
+}
+
+
+
+.flexbox-funderar-text-container h1 {
+  font: bold;
+  font-size: 50px;
+  font-family: "Eina01-Regular";
+  margin-top: 5%;
+}
+
+.flexbox-funderar-text-1 p {
+  font-size: 18px;
+  font: bold;
+  font-family: "Eina01-Regular";
+  margin-top: 1% !important;
+  font-weight: 400;
+}
+
+.flexbox-funderar-text-button .ui.animated.button {
+  font-size: 18px;
+  background-color: #C31631;
+  color: white;
+  margin-top: 5%;
+}

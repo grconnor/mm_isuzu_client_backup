@@ -3,7 +3,8 @@ import React from "react";
 
 // Component Imports:
 import Footer from "./Footer";
-import Info from "./Info/info";
+import Info from "./Info/Info";
+import Funderar from "./Funderar/Funderar";
 import Antligen from "./Antligen/Antligen";
 import BackgroundVideo from "./BackgroundVideo";
 // import MainFooter from "./Footer/MainFooter";
@@ -17,6 +18,7 @@ const Main = () => {
       <BackgroundVideo />
       <Antligen />
       <Info />
+      <Funderar />
       {/* <Footer /> */}
     </>
   );

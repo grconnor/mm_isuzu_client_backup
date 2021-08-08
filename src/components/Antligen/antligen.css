@@ -3,7 +3,7 @@
   src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
 }
 
-.flexbox-main-container {
+.flexbox-antligen-container {
   display: flex;
   position: relative;
   margin-top: 9%;
@@ -16,29 +16,30 @@
   align-items: center;
 }
 
-.flexbox-text-container {
+.flexbox-antligen-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.flexbox-text-h1 {
-  /* border: 3px solid black; */
-  font: bolder;
-  font-size: xx-large;
+.flexbox-antligen-text-container h1 {
+  font: bold;
+  font-size: 50px;
+  font-weight: 100;
   font-family: "Eina01-Regular";
 }
 
-.flexbox-text-1 {
+.flexbox-antligen-text-1 p {
   font-family: "Eina01-Regular";
-  font-size: medium;
+  font-size: 18px;
 }
 
-.flexbox-text-button {
-
+.flexbox-antligen-text-button .ui.animated.button {
+  font-size: 18px;
+  background-color: ;
 }
 
-.flexbox-img {
+.flexbox-antligen-img {
   width: 351px;
   height: 195px;
 }

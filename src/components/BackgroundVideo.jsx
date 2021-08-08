@@ -1,6 +1,6 @@
 // Library Imports:
 import React from "react";
-import { Button, Image } from "semantic-ui-react";
+import { Button, Image, Icon } from "semantic-ui-react";
 
 // Component Imports:
 import ScrollIndicator from "./Scroll Indicator/ScrollIndicator";
@@ -27,8 +27,11 @@ const BackgroundVideo = () => {
             "NYA D-MAX"
           </h1> */}
           <p>
-            <Button id="provkorning-btn" href="/kontakt-provkorning">
-              Boka Provkörning
+            <Button animated id="provkorning-btn" href="/provkorning">
+              <Button.Content visible>Boka Provkörning</Button.Content>
+              <Button.Content hidden>
+                <Icon name="car" />
+              </Button.Content>
             </Button>
           </p>
         </div>

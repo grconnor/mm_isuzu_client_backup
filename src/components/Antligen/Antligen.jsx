@@ -12,20 +12,21 @@ import DoubleCab from "../../images/double/isuzu_d-max_double-cab_xrx_valencia-o
 
 const Antligen = () => {
   return (
-    
     <Container>
-      <div className="flexbox-main-container">
-        <div className="flexbox-item flexbox-text-container">
-          <h1 className="flexbox-text flexbox-text-h1">
+      <div className="flexbox-antligen-container">
+        <div className="flexbox-antligen-text-container">
+          <h1 className="flexbox-atligen-text-h1">
             Äntligen!
           </h1>
-          <div className="flexbox-text flexbox-text-1">
-            Nu är premiären ett faktum. Alla våra återförsäljare har fått Nya D-Max och <br />
-            provkörningarna är i full gång. Välkommen du med!
-            <br />
-            <br />
+          <div className="flexbox-antligen-text-1">
+            <p id="atligen-para">
+              Nu är premiären ett faktum. Alla våra återförsäljare har fått Nya D-Max och <br />
+              provkörningarna är i full gång. Välkommen du med!
+              <br />
+              <br />
+            </p>
           </div>
-          <div className="flexbox-text-button">
+          <div className="flexbox-antligen-text-button">
             <Button animated as={Link} to={{ pathname: "/anlaggningar" }}>
               <Button.Content visible>Våra Anläggningar</Button.Content>
               <Button.Content hidden>
@@ -34,7 +35,7 @@ const Antligen = () => {
             </Button>
           </div>
         </div>
-        <div className="flexbox-item flexbox-img">
+        <div className="flexbox-antligen-img">
           <Image src={DoubleCab} alt="isuzu-d-max-double-cab" />
         </div>
       </div>
