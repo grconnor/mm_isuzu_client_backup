@@ -8,6 +8,7 @@ import Funderar from "./Funderar/Funderar";
 import Betyder from "./Betyder/Betyder";
 import Antligen from "./Antligen/Antligen";
 import BackgroundVideo from "./BackgroundVideo";
+import Hyttstorlekar from "./Hyttstorlekar/Hyttstorlekar";
 // import MainFooter from "./Footer/MainFooter";
 
 // Image Imports:
@@ -21,6 +22,7 @@ const Main = () => {
       <Info />
       <Funderar />
       <Betyder />
+      <Hyttstorlekar />
       {/* <Footer /> */}
     </>
   );
