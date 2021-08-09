@@ -6,6 +6,12 @@
 - 
 - 
 
+# Fixes:
+
+- Utrustningnivår in Hyttstorlekar - change image color, swap image for pure html.
+- Betyder - remove 'läs mer och se video' text.
+- 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
