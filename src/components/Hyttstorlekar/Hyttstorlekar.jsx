@@ -1,7 +1,7 @@
 // Library Imports:
-import React from 'react';
+import React from "react";
 import "./hyttstorlekar.css";
-import { Container, Image } from 'semantic-ui-react';
+import { Container, Image } from "semantic-ui-react";
 
 // Component Imports:
 
@@ -27,7 +27,7 @@ const Hyttstorlekar = () => {
           <h1 id="hyttstorlekar-heading">
             Hyttstorlekar
           </h1>
-          <p id="hyttstorlekar-para">
+          <p id="hyttstorlekar-heading-para">
             Du vet vad som krävs och därför finns våra pickuper i tre storlekar – Single Cab, Extended Cab och Double Cab. <br /> Oavsett vilken hyttstorlek du väljer, får du samma stryktåliga och driftsäkra pickup.
           </p>
         </div>

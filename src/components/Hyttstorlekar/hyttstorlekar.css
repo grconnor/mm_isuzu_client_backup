@@ -16,6 +16,7 @@
 .flexbox-hyttstorlekar-outer-container {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 100vw;
   height: 1035px;
   margin-left: -157px;

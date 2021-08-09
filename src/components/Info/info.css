@@ -7,7 +7,7 @@
   display: flex;
   position: relative;
   margin-top: 0;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   background-color: #595959;
   width: 100vw;
   height: 420px;
