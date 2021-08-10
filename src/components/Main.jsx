@@ -4,6 +4,7 @@ import React from "react";
 // Component Imports:
 import Footer from "./Footer";
 import Info from "./Info/Info";
+import Farger from "./Farger/Farger";
 import Betyder from "./Betyder/Betyder";
 import Funderar from "./Funderar/Funderar";
 import Antligen from "./Antligen/Antligen";
@@ -25,6 +26,7 @@ const Main = () => {
       <Betyder />
       <Hyttstorlekar />
       <Utrustning />
+      <Farger />
       {/* <Footer /> */}
     </>
   );

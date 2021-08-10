@@ -101,6 +101,10 @@ ul.utrustning-bullet li {
   color: #595959;
 }
 
+.flexbox-utrustning-item-3, .flexbox-utrustning-item-4 {
+  padding: 56px 2%;
+}
+
 #xrs-icon, #xrm-icon, #xrl-icon, #xrx-icon {
   height: 51px;
   width: 80px;
