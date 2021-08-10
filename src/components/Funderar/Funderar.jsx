@@ -12,7 +12,7 @@ import mp4 from "../../images/double/isuzu_d-max-kopa-pickup-v2.mp4";
 
 const Funderar = () => {
   return (
-    <Container>
+    <>
       <div className="flexbox-funderar-container">
         <div className="flexbox-funderar-video">
           <video playsInline autoPlay muted loop id="funderar-video">
@@ -43,7 +43,7 @@ const Funderar = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </>
   )
 }
 

@@ -11,7 +11,7 @@
   background-color: white;
   width: 100vw;
   height: 320px;
-  margin-left: -157px;
+  /* margin-left: -157px; */
   justify-content: space-evenly;
   align-items: center;
 }

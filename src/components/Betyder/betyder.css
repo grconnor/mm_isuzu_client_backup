@@ -13,7 +13,7 @@
   flex-direction: column;
   background-color: white;
   width: 100vw;
-  margin-left: -157px;
+  /* margin-left: -157px; */
   height: 895px;
 }
 
@@ -52,6 +52,7 @@
   align-items: center;
   color: #595959;
   text-align: left;
+  height: 588px;
   width: 300px;
   font-weight: bold;
   font-family: "Eina01-Regular";
@@ -87,6 +88,10 @@
 
 .flexbox-betyder-item .ui.animated.button .visible.content {
   font-weight: 400;
+}
+
+.flexbox-betyder-item-3 .ui.animated.button {
+  margin-top: 19%;
 }
 
 .flexbox-betyder-item-1 {

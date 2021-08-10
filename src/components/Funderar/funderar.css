@@ -16,7 +16,7 @@
   background-color: #D9D9D9;
   width: 100vw;
   height: 504px;
-  margin-left: -157px;
+  /* margin-left: -157px; */
   justify-content: space-evenly;
   align-items: center;
 }

@@ -12,7 +12,7 @@ import DoubleCab from "../../images/double/isuzu_d-max_double-cab_xrx_valencia-o
 
 const Antligen = () => {
   return (
-    <Container>
+    <>
       <div className="flexbox-antligen-container">
         <div className="flexbox-antligen-text-container">
           <h1 className="flexbox-atligen-text-h1">
@@ -39,7 +39,7 @@ const Antligen = () => {
           <Image src={DoubleCab} alt="isuzu-d-max-double-cab" />
         </div>
       </div>
-    </Container>
+    </>
   );
 };
 

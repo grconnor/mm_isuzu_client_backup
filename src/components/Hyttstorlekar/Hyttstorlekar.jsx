@@ -21,7 +21,7 @@ import twofivefour from "../../images/general/254.png";
 
 const Hyttstorlekar = () => {
   return (
-    <Container>
+    <>
       <div className="flexbox-hyttstorlekar-outer-container">
         <div className="flexbox-hyttstorlekar-heading-container">
           <h1 id="hyttstorlekar-heading">
@@ -85,7 +85,7 @@ const Hyttstorlekar = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </>
   )
 }
 

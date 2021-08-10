@@ -19,7 +19,7 @@ import xrxCar from "../../images/utrustning/xrx_white.png";
 
 const Utrustning = () => {
   return (
-    <Container>
+    <>
       <div className="flexbox-utrustning-outer-container">
         <div className="flexbox-utrustning-heading-container">
           <h2 id="utrustning-heading">
@@ -103,7 +103,7 @@ const Utrustning = () => {
           </Button>
         </div>
       </div>
-    </Container>
+    </>
   )
 }
 

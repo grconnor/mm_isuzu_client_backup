@@ -15,7 +15,7 @@ import komfort from "../../images/general/komfort.jpeg";
 
 const Betyder = () => {
   return (
-    <Container>
+    <>
       <div className="flexbox-betyder-outer-container">
         <div className="flexbox-betyder-heading-container">
           <h1 id="betyder-heading">
@@ -93,7 +93,7 @@ const Betyder = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </>
   )
 }
 

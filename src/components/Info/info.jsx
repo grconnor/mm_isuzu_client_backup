@@ -13,7 +13,7 @@ import adas from "../../images/icons/adas.png";
 
 const Info = () => {
   return (
-    <Container>
+    <>
       <div className="flexbox-info-container">
         <div className="flexbox-info-item flexbox-item-1" id="">
           <div className="flexbox-info-image flexbox-info-image-1">
@@ -44,7 +44,7 @@ const Info = () => {
           <p id="">är standard i nya Isuzu <br /> D-Max</p>
         </div>
       </div>
-    </Container>
+    </>
   )
 }
 

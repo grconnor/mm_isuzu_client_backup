@@ -11,7 +11,7 @@
   background-color: #595959;
   width: 100vw;
   height: 420px;
-  margin-left: -157px;
+  /* margin-left: -157px; */
   justify-content: flex-start;
   align-items: center;
 }
