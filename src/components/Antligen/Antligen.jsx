@@ -2,7 +2,7 @@
 import "./antligen.css"
 import React from "react";
 import { Link } from "react-router-dom"
-import { Container, Image, Button, Icon } from "semantic-ui-react";
+import { Image, Button, Icon } from "semantic-ui-react";
 
 // Component Imports:
 
