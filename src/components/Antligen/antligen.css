@@ -3,6 +3,16 @@
   src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
 .flexbox-antligen-container {
   display: flex;
   position: relative;
@@ -12,7 +22,7 @@
   width: 100vw;
   height: 320px;
   /* margin-left: -157px; */
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -20,24 +30,40 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
+  width: 45%;
+  height: 50%;
+  padding-bottom: 4%;
 }
 
 .flexbox-antligen-text-container h1 {
-  font: bold;
   font-size: 50px;
+  line-height: 60px;
   font-weight: 100;
-  font-family: "Eina01-Regular";
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  color: #595959;
+  font-style: normal;
 }
 
 .flexbox-antligen-text-1 p {
-  font-family: "Eina01-Regular";
+  font-family: "Roboto-Condensed", sans-serif;
   font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding-top: 7%;
+}
+
+.flexbox-antligen-text-button {
+  height: 3%;
 }
 
 .flexbox-antligen-text-button .ui.animated.button {
   font-size: 18px;
   background-color: #595959;
   color: white;
+  margin: 0;
 }
 
 .flexbox-antligen-img {
