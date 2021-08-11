@@ -31,7 +31,7 @@ const Betyder = () => {
               Mer Kapacitet
             </h1>
             <p id="kapacitet-para">
-              3,5 ton dragvikj och över 1 ton <br /> lastvikt. Lägger du till 240 mm <br /> markfrigång och ett vadningsdjup <br /> på hela 800 mm är nya D-Max <br /> svårslagen. Nya D-Max har <br /> dessutom begåvats med spårrbar <br /> differential...
+              3,5 ton dragvikj och över 1 ton lastvikt. Lägger du till 240 mm markfrigång och ett vadningsdjup på hela 800 mm är nya D-Max svårslagen. Nya D-Max har dessutom begåvats med spårrbar differential...
             </p>
             <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
               <Button.Content visible>Läs Mer Och Se Video</Button.Content>
@@ -48,7 +48,7 @@ const Betyder = () => {
               Mer Styrka
             </h1>
             <p id="styrka-para">
-              D-Max är byggd med den <br /> kraftigaste ramen på marknaden. <br /> Det gör att den tål tung last och <br /> kan köras i besvärlig terräng, <br /> samtidigt. Även bromsskivor och <br /> trummor har graderats upp. <br /> D-Max är redo för...
+              D-Max är byggd med den kraftigaste ramen på marknaden. Det gör att den tål tung last och kan köras i besvärlig terräng, samtidigt. Även bromsskivor och trummor har graderats upp. D-Max är redo för...
             </p>
             <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
               <Button.Content visible>Läs Mer Och Se Video</Button.Content>
@@ -65,7 +65,7 @@ const Betyder = () => {
               Mer Säkerrhet
             </h1>
             <p id="sakerhet-para">
-              Vår vision är att erbjuda den <br /> säkraste pickupen på marknaden. <br /> Autobroms, kollisionsvarnare, adaptiv  farthållare, trafikskyltsavläsning <br /> och filassistans, för att nämna några <br /> av säkerhetssystemen...
+              Vår vision är att erbjuda den säkraste pickupen på marknaden. Autobroms, kollisionsvarnare, adaptiv farthållare, trafikskyltsavläsning och filassistans, för att nämna några av säkerhetssystemen...
             </p>
             <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
               <Button.Content visible>Läs Mer Och Se Video</Button.Content>
@@ -82,7 +82,7 @@ const Betyder = () => {
               Mer Komfort
             </h1>
             <p id="komfort-para">
-              Den nya fjädringen i D-Max ger <br /> mjuk och komfortabel körning <br /> både med full last och när du kör <br /> helt olastat. Personbilskänslan <br /> förstärks ytterligare med 2-zons <br /> klimatanläggning och 9-tums <br /> touch-skärm...
+              Den nya fjädringen i D-Max ger mjuk och komfortabel körning både med full last och när du kör helt olastat. Personbilskänslan förstärks ytterligare med 2-zons klimatanläggning och 9-tums touch-skärm...
             </p>
             <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
               <Button.Content visible>Läs Mer Och Se Video</Button.Content>

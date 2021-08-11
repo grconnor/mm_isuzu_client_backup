@@ -16,7 +16,7 @@
 .flexbox-farger-top-container {
   padding-top: 5%;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: flex-start;
   position: relative;
   overflow: hidden;
@@ -87,7 +87,7 @@
   display: block;
   position: relative;
   overflow: visible;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .farger-cover-container {
@@ -101,7 +101,7 @@
 .flexbox-farger-item {
   float: left;
   width: 15%;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin: 7% 0px 4% 4%;
   margin-top: 0%;
 }

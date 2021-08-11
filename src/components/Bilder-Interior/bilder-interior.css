@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-bilder-interior-outer-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100vw;
+  height: 900px;
+  background-color: #FFFFFF;
+  padding-top: 5%;
+}
+
+.flexbox-bilder-interior-heading-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-bilder-interior-heading-container h2 {
+  width: 75vw;
+  text-align: left;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  color: #595959;
+  font-style: normal;
+}
+
+.flexbox-bilder-interior-heading-container p {
+  width: 75vw;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #595959;
+  text-align: left;
+}
+
+.flexbox-bilder-interior-image-inner-container {
+  height: 680px;
+  width: 460px;
+}
+
+.flexbox-bilder-interior-image-outer-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100vw;
+  height: 730px;
+  padding-top: 3%;
+}

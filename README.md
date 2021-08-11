@@ -10,7 +10,7 @@
 
 - Utrustningnivår in Hyttstorlekar - change image color, swap image for pure html.
 - Betyder - remove 'läs mer och se video' text.
-- 
+- Remove Container from MainFooter component.
 
 # Getting Started with Create React App
 

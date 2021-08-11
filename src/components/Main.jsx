@@ -11,6 +11,8 @@ import Antligen from "./Antligen/Antligen";
 import BackgroundVideo from "./BackgroundVideo";
 import Utrustning from "./Utrustning/Utrustning";
 import Hyttstorlekar from "./Hyttstorlekar/Hyttstorlekar";
+import BilderInterior from "./Bilder-Interior/BilderInterior";
+import BilderExterior from "./Bilder-Exterior/BilderExterior";
 // import MainFooter from "./Footer/MainFooter";
 
 // Image Imports:
@@ -27,6 +29,8 @@ const Main = () => {
       <Hyttstorlekar />
       <Utrustning />
       <Farger />
+      <BilderInterior />
+      <BilderExterior />
       {/* <Footer /> */}
     </>
   );
