@@ -23,11 +23,13 @@ const Funderar = () => {
           </video>
         </div>
         <div className="flexbox-funderar-text-container">
-          <h1 id="fundera-heading">
-            Funderar Du På Att <br />
-            Köpa Pickup?
-          </h1>
-          <div className="flexbox-funderar-text-1">
+          <div className="flexbox-funderar-heading-container">
+            <h1 id="fundera-heading">
+              Funderar Du På Att <br />
+              Köpa Pickup?
+            </h1>
+          </div>
+          <div className="flexbox-funderar-paragraph-container">
             <p id="funderar-para">
               Då är du nog nyfiken på att veta vad andra tycker om Isuzu. Här har vi <br />
               samlat aktuella tester, filmer och recensioner.
