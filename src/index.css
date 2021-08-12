@@ -39,6 +39,7 @@ body {
   overflow: hidden;
   display: block;
   position: relative;
+  padding-top: 100px;
   padding-bottom: 620px;
 }
 
@@ -116,11 +117,11 @@ code {
   z-index: 0;
   object-fit: cover;
   width: 100vw;
-  height: 700px;
+  height: 550px;
   top: 0;
   bottom: 0;
   left: 0;
-  padding-top: 100px;
+  padding-top: 50;
 }
 
 /* .video-container {
@@ -153,11 +154,15 @@ code {
   background-color: #c31631;
   border: 2px solid black;
   color: white;
-  font-size: 2em !important;
+  /* font-size: 2em !important; */
   position: relative;
   width: 35%;
-  margin-top: 5%;
-  min-height: 0 !important;
+  margin-top: 7%;
+  /* min-height: 0 !important; */
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
 }
 
 .ec-text-wrapper {

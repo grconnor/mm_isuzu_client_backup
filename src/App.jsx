@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Provkor from "./components/Provkor/Provkor";
 import ContactBook from "./components/ContactBook";
 import NavigationBar from "./components/NavigationBar";
+import Anlaggningar from "./components/Anlaggningar/Anlaggningar";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route exact path="/" component={Main} />
           <Route exact path="/kontakt" component={ContactBook} />
           <Route exact path="/provkorning" component={Provkor} />
+          <Route exact path="/anlaggningar" component={Anlaggningar} />
         </Switch>
         <Footer />
       </div>
