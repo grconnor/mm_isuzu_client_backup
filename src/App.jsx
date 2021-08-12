@@ -9,6 +9,7 @@ import Provkor from "./components/Provkor/Provkor";
 import ContactBook from "./components/ContactBook";
 import Modeller from "./components/Modeller/Modeller";
 import NavigationBar from "./components/NavigationBar";
+import SingleCab from "./components/SingleCab/SingleCab";
 import Anlaggningar from "./components/Anlaggningar/Anlaggningar";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route exact path="/provkorning" component={Provkor} />
           <Route exact path="/anlaggningar" component={Anlaggningar} />
           <Route exact path="/modeller" component={Modeller} />
+          <Route exact path="/single-cab" component={SingleCab} />
         </Switch>
         <Footer />
       </div>
