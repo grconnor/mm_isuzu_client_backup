@@ -60,13 +60,6 @@ const NavigationBar = () => {
             >
               Modeller
             </Menu.Item>
-            <Menu horizontal>
-              <Dropdown item simple text="Köpa & Äga">
-                <Dropdown.Menu>
-                  
-                </Dropdown.Menu>
-              </Dropdown>
-            </Menu>
             <Menu.Item
               id="navbar-navigation-menu-tillbehor"
               name="tillbehor"
@@ -76,15 +69,6 @@ const NavigationBar = () => {
             >
               Tillbehör
             </Menu.Item>
-            <Menu horizontal>
-              <Dropdown item simple text="Om Oss">
-                <Dropdown.Menu>
-                  <Dropdown.Item>Om Oss</Dropdown.Item>
-                  <Dropdown.Item>Pressrum</Dropdown.Item>
-                  <Dropdown.Item>Avtalspartners</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Menu>
             <Menu.Item
               id="navbar-navigation-menu-om-oss"
               name="om-oss"

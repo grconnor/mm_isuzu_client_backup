@@ -14,11 +14,10 @@ html, body {
 }
 
 .flexbox-footer-outer-container {
-  border: 2px solid lightgreen;
   width: 100vw;
   height: 625px;
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
 }
 
 .flexbox-footer-nav-container {

@@ -19,7 +19,7 @@ const BackgroundVideo = () => {
             type="video/mp4"
           />
         </video> */}
-        <Image src={nyadmax} alt="nya d-max" id="nyadmax" fluid/>
+        <Image src={nyadmax} alt="nya-d-max" id="nyadmax" fluid/>
         <div className="text-overlay">
           {/* <h1>
             "NEXT GENERATION PICKUP"
