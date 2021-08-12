@@ -4,23 +4,23 @@ import { Switch, Route } from "react-router-dom";
 
 // Component Imports:
 import Main from "./components/Main";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import Provkor from "./components/Provkor/Provkor";
 import ContactBook from "./components/ContactBook";
 import NavigationBar from "./components/NavigationBar";
-// import MainFooter from "./components/MainFooter/MainFooter";
 
 const App = () => {
   return (
     <>
-      <NavigationBar />
-      <Switch>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/kontakt" component={ContactBook} />
-        <Route exact path="/provkorning" component={Provkor} />
-      </Switch>
-      {/* <Footer /> */}
-      {/* <MainFooter /> */}
+      <div className="flexbox-content-wrapper">
+        <NavigationBar />
+        <Switch>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/kontakt" component={ContactBook} />
+          <Route exact path="/provkorning" component={Provkor} />
+        </Switch>
+        <Footer />
+      </div>
     </>
   );
 };

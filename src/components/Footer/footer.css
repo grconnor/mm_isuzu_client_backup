@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+.flexbox-footer-outer-container {
+  border: 2px solid lightgreen;
+  width: 100vw;
+  height: 625px;
+  position: absolute;
+  bottom: 0;
+}
+
+.flexbox-footer-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+  background-color: #C31631;
+}
+
+.flexbox-footer-nav-item {
+  background-color: #C31631;
+  height: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.flexbox-footer-nav-item a {
+  color: white;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100px;
+  font-weight: 100;
+  text-decoration: underline;
+  display: block;
+  height: 100px;
+  width: 250px;
+  text-align: center;
+}
+
+.flexbox-footer-nav-item a:hover {
+  color: black;
+}
+
+.flexbox-footer-nav-container div:hover a {
+  color: black;
+}
+
+.flexbox-footer-nav-item-1:hover {
+  border-right: blue;
+  border-left: blue;
+}
+
+.flexbox-footer-nav-item-2:hover {
+  border-right: blue;
+  border-left: blue;
+}
+
+.flexbox-footer-footer-container {
+  background-color: #595959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 520px;
+}
+
+.flexbox-footer-footer-item {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.flexbox-footer-footer-item-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.flexbox-footer-footer-item-heading-container h2 {
+  color: white;
+  font-weight: bolder;
+  font-family: "Evogria", "Robot-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 100;
+}
+
+.flexbox-footer-footer-item-link-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.flexbox-footer-footer-item-link-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.flexbox-footer-footer-item-link-container a {
+  color: white;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+}
