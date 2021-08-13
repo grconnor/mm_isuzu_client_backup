@@ -1,7 +1,7 @@
 // Library Imports:
 import "./farger.css";
 import React from "react";
-import { Container, Image } from "semantic-ui-react";
+import { Image } from "semantic-ui-react";
 
 // Component Imports:
 

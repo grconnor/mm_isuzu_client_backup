@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-doublecab-main-container {
+  width: 100vw;
+  height: 500px;
+  background-image: url(../../images/double-cab/xrx_hero.jpeg);
+  background-size: cover;
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flexbox-doublecab-text-container {
+  display: flex;
+  /* border: 2px solid blue; */
+  flex-direction: column;
+  width: 75%;
+  padding-bottom: 3%;
+}
+
+.flexbox-doublecab-text-container h1 {
+  padding-bottom: 1%;
+  color: white;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 75px;
+  line-height: 85px;
+  font-weight: 400;
+}
+
+.flexbox-doublecab-text-container button {
+  height: 44px;
+  width: 300px;
+  border: none;
+  color: white;
+  background-color: #c31631;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}

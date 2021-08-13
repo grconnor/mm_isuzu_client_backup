@@ -11,7 +11,7 @@ import Klimatpaverkan from "./Klimatpaverkan/Klimatpaverkan";
 import Utrustningsniva from "./Utrustningsniva/Utrustningsniva";
 
 // Image Imports:
-import MainImage from "../../images/single-cab/xrs-hero.jpeg";
+
 
 const SingleCab = () => {
   return (

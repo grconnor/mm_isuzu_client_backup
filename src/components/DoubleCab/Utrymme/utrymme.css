@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-utrymme-outer-container {
+  /* border: 2px solid blue; */
+  background-color: white;
+  justify-content: center;
+  height: 480px;
+  width: 100vw;
+  display: flex;
+}
+
+.flexbox-utrymme-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid pink; */
+  width: 75%;
+}
+
+.flexbox-utrymme-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px solid purple; */
+  width: 75%;
+  height: 70%;
+  text-align: left;
+}
+
+.flexbox-utrymme-heading-container {
+
+}
+
+.flexbox-utrymme-heading-container h2 {
+  font-family: "Evogria", "ROboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  color: #595959;
+}
+
+.flexbox-utrymme-heading-container h5 {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  color: #C31631;
+}
+
+.flexbox-utrymme-paragraph-container {
+
+}
+
+.flexbox-utrymme-paragraph-container p {
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: black;
+}
+
+.flexbox-utrymme-image-container {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 330px;
+  width: 240px;
+  padding-top: 3%;
+}
+
+.flexbox-utrymme-image-container button {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: white;
+  background-color: #404040;
+  width: 90%;
+  height: 40px;
+  border: none;
+}
+
+.flexbox-utrymme-image-container button:hover {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+#utrymme-image {
+  height: 120px;
+  width: 240px;
+}
