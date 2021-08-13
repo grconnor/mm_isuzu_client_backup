@@ -17,7 +17,6 @@ const SingleCab = () => {
   return (
     <>
       <div className="flexbox-singlecab-main-container">
-        {/* <img src={MainImage} alt="main-xrs" id="single-cab-main-image" /> */}
         <div className="flexbox-singlecab-text-container">
           <h1 id="singlecab-heading1">
             Single Cab

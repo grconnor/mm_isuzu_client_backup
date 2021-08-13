@@ -8,7 +8,7 @@
   src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
 }
 
-.flexbox-betyder2-outer-container {
+.flexbox-betyderextended-outer-container {
   display: flex;
   flex-direction: column;
   background-color: #595959;
@@ -17,7 +17,7 @@
   height: 895px;
 }
 
-.flexbox-betyder2-heading-container h1 {
+.flexbox-betyderextended-heading-container h1 {
   display: flex;
   position: relative;
   color: white;
@@ -31,7 +31,7 @@
   text-align: center;
 }
 
-.flexbox-betyder2-container {
+.flexbox-betyderextended-container {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -45,7 +45,7 @@
   align-items: center;
 }
 
-.flexbox-betyder2-item {
+.flexbox-betyderextended-item {
   display: block;
   margin-top: -5%;
   flex-direction: row;
@@ -57,7 +57,7 @@
   font-family: "Eina01-Regular";
 }
 
-.flexbox-betyder2-item h1 {
+.flexbox-betyderextended-item h1 {
   font-weight: 100;
   font-size: 25px;
   font-style: normal;
@@ -66,7 +66,7 @@
   color: white;
 }
 
-.flexbox-betyder2-item p {
+.flexbox-betyderextended-item p {
   height: 200px;
   width: 288px;
   font-size: 18px;
@@ -78,12 +78,12 @@
   padding-right: 15%;
 }
 
-.flexbox-betyder2-item-image {
+.flexbox-betyderextended-item-image img {
   height: 240px;
   width: 240px;
 }
 
-.flexbox-betyder2-item .ui.button {
+.flexbox-betyderextended-item .ui.button {
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -94,26 +94,26 @@
   height: 9%;
 }
 
-.flexbox-betyder2-item .ui.animated.button .visible.content {
+.flexbox-betyderextended-item .ui.animated.button .visible.content {
   font-weight: 400;
 }
 
-.flexbox-betyder2-item-3 .ui.animated.button {
+.flexbox-betyderextended-item-3 .ui.animated.button {
   margin-top: 10%;
 }
 
-.flexbox-betyder2-item-1 {
+.flexbox-betyderextended-item-1 {
   
 }
 
-.flexbox-betyder2-item-2 {
+.flexbox-betyderextended-item-2 {
   
 }
 
-.flexbox-betyder2-item-3 {
+.flexbox-betyderextended-item-3 {
   
 }
 
-.flexbox-betyder2-item-4 {
+.flexbox-betyderextended-item-4 {
   
 }

@@ -11,6 +11,8 @@ import Modeller from "./components/Modeller/Modeller";
 import NavigationBar from "./components/NavigationBar";
 import SingleCab from "./components/SingleCab/SingleCab";
 import Anlaggningar from "./components/Anlaggningar/Anlaggningar";
+import ExtendedCab from "./components/ExtendedCab/ExtendedCab";
+// import DoubleCab from "./components/DoubleCab/DoubleCab";
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
           <Route exact path="/anlaggningar" component={Anlaggningar} />
           <Route exact path="/modeller" component={Modeller} />
           <Route exact path="/single-cab" component={SingleCab} />
+          <Route exact path="/extended-cab" component={ExtendedCab} />
+          {/* <Route exact path="/double-cab" component={DoubleCab} /> */}
         </Switch>
         <Footer />
       </div>

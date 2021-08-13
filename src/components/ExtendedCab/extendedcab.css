@@ -13,10 +13,10 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
-.flexbox-singlecab-main-container {
+.flexbox-extendedcab-main-container {
   width: 100vw;
   height: 500px;
-  background-image: url(../../images/single-cab/xrs-hero.jpeg);
+  background-image: url(../../images/extended-cab/xrm_hero.jpeg);
   background-size: cover;
   display: flex;
   /* border: 2px solid red; */
@@ -24,7 +24,7 @@
   align-items: flex-end;
 }
 
-.flexbox-singlecab-text-container {
+.flexbox-extendedcab-text-container {
   display: flex;
   /* border: 2px solid blue; */
   flex-direction: column;
@@ -32,7 +32,7 @@
   padding-bottom: 3%;
 }
 
-.flexbox-singlecab-text-container h1 {
+.flexbox-extendedcab-text-container h1 {
   padding-bottom: 1%;
   color: white;
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
@@ -42,9 +42,9 @@
   font-weight: 400;
 }
 
-.flexbox-singlecab-text-container button {
+.flexbox-extendedcab-text-container button {
   height: 44px;
-  width: 276px;
+  width: 300px;
   border: none;
   color: white;
   background-color: #c31631;
@@ -53,9 +53,4 @@
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
-}
-
-#single-cab-main-image {
-  height: 665px;
-  width: 1600px;
 }
