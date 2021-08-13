@@ -4,6 +4,9 @@ import React from "react";
 
 // Component Imports:
 import Grova from "./Grova/Grova";
+import Farger2 from "./Farger2/Farger2";
+import Betyder2 from "./Betyder2/Betyder2";
+import Personlig2 from "./Personlig2/Personlig2";
 import Utrustningsniva from "./Utrustningsniva/Utrustningsniva";
 
 // Image Imports:
@@ -17,6 +20,9 @@ const SingleCab = () => {
       </div>
       <Grova />
       <Utrustningsniva />
+      <Farger2 />
+      <Betyder2 />
+      <Personlig2 />
     </>
   )
 }

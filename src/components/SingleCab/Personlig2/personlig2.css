@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-personlig2-outer-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 413px;
+  width: 100vw;
+  background-color: white;
+}
+
+.flexbox-personlig2-text-container {
+  display: flex;
+  position: relative;
+  width: 45vw;
+  height: 300px;
+  text-align: left;
+}
+
+.flexbox-personlig2-heading-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flexbox-personlig2-heading-container h3 {
+  width: 90%;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 100;
+  color: #595959;
+}
+
+.flexbox-personlig2-paragraph-container {
+  width: 100%;
+}
+
+.flexbox-personlig2-paragraph-container p {
+  width: 100%;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+  color: black;
+  padding-right: 5%;
+}
+
+.flexbox-personlig2-button-container {
+  width: 45%;
+  height: 25%;
+  padding-top: 3%;
+}
+
+.flexbox-personlig2-button-container #personlig2-button {
+  width: 70%;
+  height: 70%;
+  background-color: #595959;
+  color: white;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  border: none;
+}
+
+.flexbox-personlig2-button-container #personlig2-button:hover {
+  background-color: #404040;
+}
+
+.flexbox-personlig2-image-container img {
+  height: 325px;
+  width: 520px;
+}

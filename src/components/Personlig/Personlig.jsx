@@ -18,7 +18,7 @@ const Personlig = () => {
             </h3>
             <div className="flexbox-personlig-paragraph-container">
               <p id="personlig-paragraph">
-                Din Isuzu är redan i sitt grundutförande en pickup med en alldeles egen karaktär. Men cill du, kan du sätta din personliga prägel genom ett brett utbud av funktionella tillbehör, såväl invändigt som utvändigt.
+                Din Isuzu är redan i sitt grundutförande en pickup med en alldeles egen karaktär. Men vill du, kan du sätta din personliga prägel genom ett brett utbud av funktionella tillbehör, såväl invändigt som utvändigt.
               </p>
             </div>
             <div className="flexbox-personlig-button-container">

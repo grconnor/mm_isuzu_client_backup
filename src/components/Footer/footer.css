@@ -71,6 +71,10 @@ html, body {
   border-right: blue;
   border-left: blue;
 }
+.flexbox-footer-nav-item-3:hover {
+  border-right: blue;
+  border-left: blue;
+}
 
 .flexbox-footer-footer-container {
   background-color: #595959;
