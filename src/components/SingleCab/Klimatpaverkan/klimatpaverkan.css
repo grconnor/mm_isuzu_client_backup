@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-klimatpaverkan-outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 555px;
+  width: 1440px;
+  background-image: url(../../../images/klimatpaverkan/container-hvo100.jpeg);
+  background-size: cover;
+}
+
+.flexbox-klimatpaverkan-text-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 306px;
+  width: 1080px;
+}
+
+.flexbox-klimatpaverkan-heading-container {
+  /* border: 2px solid greenyellow; */
+  color: white;
+  text-align: center;
+}
+
+.flexbox-klimatpaverkan-heading-container h2 {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  color: white;
+}
+
+.flexbox-klimatpaverkan-text-container h4 {
+  font-family: "Evogria", "ROboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 100;
+  color: white;
+}
+
+.flexbox-klimatpaverkan-button-container button {
+  color: white;
+  background-color: #C31631;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.flexbox-klimatpaverkan-button-container {
+  border: 2px solid purple;
+  height: 44px;
+  width: 203px;
+}

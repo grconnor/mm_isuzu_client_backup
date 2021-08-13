@@ -14,7 +14,7 @@
 }
 
 .flexbox-modeller-outer-container {
-  border: 2px solid blue;
+  border: 3px solid black;
   background-color: white;
   height: 400px;
   width: 100vw;
@@ -23,7 +23,7 @@
 }
 
 .flexbox-modeller-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -36,6 +36,7 @@
   width: 200px;
   height: 100%;
   text-align: center;
+  transition: transform .2s;
 }
 
 .flexbox-modeller-item a h2 {
@@ -57,7 +58,15 @@
   color: black;
 }
 
+.flexbox-modeller-item a img:hover {
+  background-color: red;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+}
+
 #modeller-single-cab-image, #modeller-extended-cab-image, #modeller-double-cab-image {
   height: 121px;
   width: 193px;
+  transition: transform .2s;
 }
