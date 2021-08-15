@@ -11,6 +11,10 @@
 - Utrustningnivår in Hyttstorlekar - change image color, swap image for pure html.
 - Betyder - remove 'läs mer och se video' text.
 - Remove Container from MainFooter component.
+- Fix Registreringsnummer input padding in Kontakt component.
+- Font of Berätta form section.
+- Kontakt commented out test borders.
+- 
 
 # Getting Started with Create React App
 

@@ -77,7 +77,7 @@ const ContactBook = () => {
           type="text"
           placeholder="Meddelande"
         />
-        
+
         <h1 id="contact-info">BERÄTTA FÖR OSS VEM DU ÄR</h1>
         <label for="forefternamn">För-och efternamn</label>
         <input

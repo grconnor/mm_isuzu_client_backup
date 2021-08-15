@@ -5,8 +5,9 @@ import { Switch, Route } from "react-router-dom";
 // Component Imports:
 import Main from "./components/Main";
 import Footer from "./components/Footer/Footer";
-import Provkor from "./components/Provkor/Provkor";
-import ContactBook from "./components/ContactBook";
+// import Provkor from "./components/Provkor/Provkor";
+import Kontakt from "./components/Kontakt/Kontakt";
+// import ContactBook from "./components/ContactBook";
 import Modeller from "./components/Modeller/Modeller";
 import NavigationBar from "./components/NavigationBar";
 import SingleCab from "./components/SingleCab/SingleCab";
@@ -21,8 +22,8 @@ const App = () => {
         <NavigationBar />
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route exact path="/kontakt" component={ContactBook} />
-          <Route exact path="/provkorning" component={Provkor} />
+          <Route exact path="/kontakt" component={Kontakt} />
+          {/* <Route exact path="/provkorning" component={Provkor} /> */}
           <Route exact path="/anlaggningar" component={Anlaggningar} />
           <Route exact path="/modeller" component={Modeller} />
           <Route exact path="/single-cab" component={SingleCab} />
