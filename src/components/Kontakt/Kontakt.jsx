@@ -5,49 +5,46 @@ import React, { useState } from "react";
 // Component Imports:
 
 // Image Imports:
-import SingleCab from "../../images/single/isuzu_d-max_single-cab_xrs_1000x500.png";
-import DoubleCab from "../../images/double/isuzu_d-max_double-cab_xrx_1000x500.png";
-import ExtendedCab from "../../images/extended/isuzu_d-max_extended-cab_xrm_1000x500.png";
-
-const hi = 1;
+// import SingleCab from "../../images/single/isuzu_d-max_single-cab_xrs_1000x500.png";
+// import DoubleCab from "../../images/double/isuzu_d-max_double-cab_xrx_1000x500.png";
+// import ExtendedCab from "../../images/extended/isuzu_d-max_extended-cab_xrm_1000x500.png";
 
 const Kontakt = () => {
   // eslint-disable-next-line no-unused-vars
   const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event, checkedStatus) => {
+    event.preventDefault();
     setStatus("Sending...");
+    var policyElement = document.getElementById("policy");
+    policyElement.value = policyElement.checked ? "Ja, vill ta emot marknadsföring." : "Nej, vill inte ta emot marknadsföring."
+    
     const {
-      name,
-      email,
-      message,
       question,
       meddelande,
+      aterforsaljare,
       forefternamn,
-      foretag,
       postnummer,
-      stad,
       telefon,
+      foretag,
+      stad,
       epostadress,
       registreringsnummer,
       policy,
-    } = e.target.elements;
+    } = event.target.elements;
     let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
       question: question.value,
       meddelande: meddelande.value,
+      aterforsaljare: aterforsaljare.value,
       forefternamn: forefternamn.value,
-      foretag: foretag.value,
       postnummer: postnummer.value,
-      stad: stad.value,
       telefon: telefon.value,
+      foretag: foretag.value,
+      stad: stad.value,
       epostadress: epostadress.value,
       registreringsnummer: registreringsnummer.value,
       policy: policy.value,
     };
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:5000/kontakt", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -74,7 +71,7 @@ const Kontakt = () => {
                 Fyll i dina uppgifter nedan - så kontaktar vi dig inom kort
               </h2>
             </div>
-            <form onsubmit={handleSubmit} id="kontaktform" name="kontaktform">
+            <form onSubmit={handleSubmit} id="kontaktform" name="kontaktform">
               <div className="flexbox-kontakt-form-question-container">
                 <label for="question">VAD GÄLLER DIN FRÅGA</label>
                 <select
@@ -137,8 +134,8 @@ const Kontakt = () => {
                         name="postnummer"
                         type="number"
                         placeholder="141 00"
-                        onInput={(e) =>
-                          (e.target.value = e.target.value.slice(0, 5))
+                        onInput={(event) =>
+                          (event.target.value = event.target.value.slice(0, 5))
                         }
                       />
                     </div>
@@ -149,8 +146,8 @@ const Kontakt = () => {
                         name="telefon"
                         type="number"
                         placeholder="076 520 4789"
-                        onInput={(e) =>
-                          (e.target.value = e.target.value.slice(0, 10))
+                        onInput={(event) =>
+                          (event.target.value = event.target.value.slice(0, 10))
                         }
                       />
                     </div>
@@ -205,7 +202,11 @@ const Kontakt = () => {
                     </div>
                     <div className="flexbox-kontakt-form-beratta-lower-policy-container">
                       <div className="flexbox-kontakt-form-beratta-lower-policy-input-container">
-                        <input id="policy" name="policy" type="checkbox" />
+                        <input
+                          type="checkbox"
+                          name="policy"
+                          id="policy"
+                        />
                       </div>
                       <div className="flexbox-kontakt-form-beratta-lower-policy-label-container">
                         <label for="policy">
@@ -217,7 +218,13 @@ const Kontakt = () => {
                       </div>
                     </div>
                     <div className="flexbox-kontakt-form-beratta-lower-button-container">
-                      <button type="button">Skicka</button>
+                      <button
+                        type="submit"
+                        id="kontakt-form-submit-button"
+                        form="kontaktform"
+                      >
+                        Skicka
+                      </button>
                     </div>
                   </div>
                 </div>

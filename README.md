@@ -14,7 +14,7 @@
 - Fix Registreringsnummer input padding in Kontakt component.
 - Font of Berätta form section.
 - Kontakt commented out test borders.
-- 
+- Broschure download.
 
 # Getting Started with Create React App
 

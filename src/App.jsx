@@ -5,8 +5,8 @@ import { Switch, Route } from "react-router-dom";
 // Component Imports:
 import Main from "./components/Main";
 import Footer from "./components/Footer/Footer";
-// import Provkor from "./components/Provkor/Provkor";
 import Kontakt from "./components/Kontakt/Kontakt";
+import Provkor from "./components/Provkorning/Provkorning";
 // import ContactBook from "./components/ContactBook";
 import Modeller from "./components/Modeller/Modeller";
 import NavigationBar from "./components/NavigationBar";
@@ -29,6 +29,7 @@ const App = () => {
           <Route exact path="/single-cab" component={SingleCab} />
           <Route exact path="/extended-cab" component={ExtendedCab} />
           <Route exact path="/double-cab" component={DoubleCab} />
+          <Route exact path="/provkorning" component={Provkor} />
         </Switch>
         <Footer />
       </div>

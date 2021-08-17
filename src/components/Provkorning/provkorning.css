@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+.flexbox-provkorning-main-container {
+  height: 100%;
+  width: 100vw;
+}
+
+.flexbox-provkorning-image-container {
+  /* border: 2px solid red; */
+  width: 100vw;
+  height: 500px;
+  background-image: url(../../images/single-cab/xrl_hero.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flexbox-provkorning-image-text-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding-bottom: 3%;
+}
+
+.flexbox-provkorning-image-text-container h1 {
+  padding-bottom: 1%;
+  color: white;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 75px;
+  line-height: 85px;
+  font-weight: 400;
+}
+
+.flexbox-provkorning-form-outer-container {
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 1100px;
+  width: 100vw;
+}
+
+.flexbox-provkorning-form-container {
+  /* border: 2px solid orange; */
+  padding-top: 3%;
+  width: 80%;
+  height: 1000px;
+}
+
+.flexbox-provkorning-form-car-selection {
+  /* border: 2px solid blue; */
+  width: 70%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.flexbox-provkorning-form-car-selection ul li label img {
+  height: 80px;
+  width: 160px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+
+.flexbox-provkorning-form-car-selection ul {
+  list-style-type: none;
+  padding-top: 3%;
+  display: inline-block;
+  text-align: left;
+}
+
+.flexbox-provkorning-form-container form {
+  /* padding: 10px; */
+}
+
+.flexbox-provkorning-form-car-list-container {
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.flexbox-provkorning-form-car-list-container li label {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox-provkorning-form-car-selection ul li {
+  /* display: inline-block; */
+  /* border: 2px solid red; */
+}
+
+.flexbox-provkorning-form-car-selection ul li input[type="checkbox"][id^="cb"] {
+  display: none;
+}
+
+.flexbox-provkorning-form-aterforsaljare-container {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexbox-provkorning-form-aterforsaljare-container select {
+  width: 31%;
+  height: 50px;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.flexbox-provkorning-form-aterforsaljare-container label {
+  /* border: 2px solid red; */
+  width: 40%;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #595959;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-container {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 420px;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-heading-container {
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-item-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-item {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 40%;
+  align-items: baseline;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-label-input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-label-input-container label, input {
+  width: 80%;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-label-input-container label {
+  font-family: "Evogria","Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 100;
+  color: #595959;
+}
+
+.flexbox-provkorning-form-kontaktuppgifter-label-input-container input {
+  height: 30px;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: black;
+  border: 1px solid black
+}
+
+.flexbox-provkorning-form-policy-container {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flexbox-provkorning-form-policy-input-container {
+  display: flex;
+  /* border: 2px solid greenyellow; */
+  width: 24px;
+  height: 24px;
+}
+
+.flexbox-provkorning-form-policy-label-container {
+  /* border: 2px solid greenyellow; */
+  width: 35%;
+  height: 80%;
+}
+
+.flexbox-provkorning-form-button-container {
+  /* border: 2px solid blue; */
+  width: 40%;
+  height: 10%;
+  padding-top: 1%;
+}
+
+.flexbox-provkorning-form-button-container button {
+  border: none;
+  /* width: 136px; */
+  /* width: 20%; */
+  color: white;
+  width: 40%;
+  height: 110%;
+  background-color: #595959;
+  border: none;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.flexbox-provkorning-form-personuppgifter-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 230px;
+}
+
+.flexbox-provkorning-form-personuppgifter-span-container {
+  /* border: 2px solid red; */
+  text-align: center;
+  width: 100%;
+}
+
+/* Font */
+
+.flexbox-provkorning-form-kontaktuppgifter-heading-container h2 {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #595959;
+}
+
+.flexbox-provkorning-form-aterforsaljare-container label {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #595959;
+}
+
+.flexbox-provkorning-form-personuppgifter-span-container span {
+  color: black;
+  font-family: "Roboto-Condended", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.flexbox-provkorning-form-personuppgifter-span-container span a {
+  color: #c31631;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.flexbox-provkorning-form-policy-label-container label {
+  /* border: 2px solid red; */
+  color: black;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.flexbox-provkorning-form-car-selection h2 {
+  color: #595959;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.flexbox-provkorning-form-car-list-container li label span {
+  /* border: 2px solid red; */
+  width: 100%;
+  color: #595959;
+  font-family: "Evogria", "ROboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 100;
+  text-align: center
+}
