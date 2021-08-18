@@ -22,7 +22,7 @@ const ExtendedCab = () => {
             Extended Cab
           </h1>
           <button type="button">
-            Testa D-Max extended cab idag
+            <a href="/provkorning">Testa D-Max extended cab idag</a>
           </button>
         </div>
       </div>

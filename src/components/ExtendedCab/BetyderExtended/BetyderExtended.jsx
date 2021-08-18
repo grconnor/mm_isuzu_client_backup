@@ -37,7 +37,7 @@ const BetyderExtended = () => {
               svårslagen. Nya D-Max har dessutom begåvats med spårrbar
               differential...
             </p>
-            <Button
+            {/* <Button
               animated
               href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/"
             >
@@ -45,7 +45,7 @@ const BetyderExtended = () => {
               <Button.Content hidden>
                 <Icon name="file text" />
               </Button.Content>
-            </Button>
+            </Button> */}
           </div>
           <div className="flexbox-betyderextended-item flexbox-betyderextended-item-2">
             <div className="flexbox-betyderextended-item-image">
@@ -58,7 +58,7 @@ const BetyderExtended = () => {
               Även bromsskivor och trummor har graderats upp. D-Max är redo
               för...
             </p>
-            <Button
+            {/* <Button
               animated
               href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/"
             >
@@ -66,7 +66,7 @@ const BetyderExtended = () => {
               <Button.Content hidden>extended
                 <Icon name="file text" />
               </Button.Content>
-            </Button>
+            </Button> */}
           </div>
           <div className="flexbox-betyderextended-item flexbox-betyderextended-item-3">
             <div className="flexbox-betyderextended-item-image">
@@ -83,7 +83,7 @@ const BetyderExtended = () => {
               trafikskyltsavläsning och filassistans, för att nämna några av
               säkerhetssystemen...
             </p>
-            <Button
+            {/* <Button
               animated
               href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/"
             >
@@ -91,7 +91,7 @@ const BetyderExtended = () => {
               <Button.Content hidden>
                 <Icon name="file text" />
               </Button.Content>
-            </Button>
+            </Button> */}
           </div>
           <div className="flexbox-betyderextended-item flexbox-betyderextended-item-4">
             <div className="flexbox-betyderextended-item-image">
@@ -104,7 +104,7 @@ const BetyderExtended = () => {
               förstärks ytterligare med 2-zons klimatanläggning och 9-tums
               touch-skärm...
             </p>
-            <Button
+            {/* <Button
               animated
               href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/"
             >
@@ -112,7 +112,7 @@ const BetyderExtended = () => {
               <Button.Content hidden>
                 <Icon name="file text" />
               </Button.Content>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

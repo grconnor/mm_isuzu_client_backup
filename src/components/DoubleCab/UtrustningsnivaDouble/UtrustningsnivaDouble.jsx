@@ -101,12 +101,9 @@ const UtrustningsnivaDouble = () => {
           </div>
         </div>
         <div className="utrustningdouble-button">
-          <Button animated href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">
-            <Button.Content visible>Jämför Utrustningsnivåer</Button.Content>
-            <Button.Content hidden>
-              <Icon name="arrows alternate horizontal" />
-            </Button.Content>
-          </Button>
+          <button type="button" id="utrustningdouble-button">
+            <a href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">Se Utrustningslista</a>
+          </button>
         </div>
       </div>
     </>

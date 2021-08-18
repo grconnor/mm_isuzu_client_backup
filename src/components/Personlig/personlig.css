@@ -70,7 +70,14 @@
   padding-top: 3%;
 }
 
-.flexbox-personlig-button-container #personlig-button {
+.flexbox-personlig-button-container button {
+  background-color: #595959;
+  border: none;
+  width: 80%;
+  height: 70%;
+}
+
+.flexbox-personlig-button-container button a {
   width: 80%;
   height: 70%;
   background-color: #595959;
@@ -81,6 +88,15 @@
   line-height: 27px;
   font-weight: 400;
   border: none;
+}
+
+.flexbox-personlig-button-container button:hover {
+  background-color: #BFBFBF;
+}
+
+.flexbox-personlig-button-container button:hover a {
+  background-color: #BFBFBF;
+  color: black;
 }
 
 .flexbox-personlig-image-container img {

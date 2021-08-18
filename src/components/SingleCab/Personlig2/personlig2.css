@@ -70,7 +70,14 @@
   padding-top: 3%;
 }
 
-.flexbox-personlig2-button-container #personlig2-button {
+.flexbox-personlig2-button-container button {
+  border: none;
+  width: 70%;
+  height: 70%;
+  background-color: #595959;
+}
+
+.flexbox-personlig2-button-container button a {
   width: 70%;
   height: 70%;
   background-color: #595959;
@@ -83,8 +90,14 @@
   border: none;
 }
 
-.flexbox-personlig2-button-container #personlig2-button:hover {
-  background-color: #404040;
+.flexbox-personlig2-button-container button:hover {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+.flexbox-personlig2-button-container button:hover a {
+  background-color: #BFBFBF;
+  color: black;
 }
 
 .flexbox-personlig2-image-container img {

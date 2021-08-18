@@ -33,7 +33,7 @@ const UtrustningsnivaExtended = () => {
               <li>Stolsvärmare fram</li>
             </ul>
             <button type="button" id="utrustningsnivaextended-button">
-              Se Utrustningslista
+              <a href="https://www.isuzusverige.se/modeller/extended-cab/utrustning/">Se Utrustningslista</a>
             </button>
           </div>
           <div className="flexbox-utrustningsnivaextended-image-container">

@@ -60,6 +60,17 @@
 }
 
 .flexbox-klimatpaverkan-button-container button {
+  border: none;
+  background-color: #C31631;
+  height: 100%;
+  width: 100%;
+}
+
+.flexbox-klimatpaverkan-button-container button:hover a {
+  color: black;
+}
+
+.flexbox-klimatpaverkan-button-container button a {
   color: white;
   background-color: #C31631;
   font-family: "Evogria", "Roboto-Condensed", sans-serif;

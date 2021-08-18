@@ -25,6 +25,7 @@
 .flexbox-anlaggningar-heading-container {
   display: flex;
   /* border: 2px solid blue; */
+  margin-top: 3%;
   align-items: flex-end;
   justify-content: center;
   width: 100%;

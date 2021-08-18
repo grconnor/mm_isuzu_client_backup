@@ -234,6 +234,11 @@
   padding-top: 1%;
 }
 
+.flexbox-provkorning-form-button-container button:hover {
+  background-color: #BFBFBF;
+  color: black;
+}
+
 .flexbox-provkorning-form-button-container button {
   border: none;
   /* width: 136px; */

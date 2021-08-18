@@ -87,6 +87,13 @@
 }
 
 .flexbox-utrymme-image-container button {
+  height: 40px;
+  width: 90%;
+  background-color: #404040;
+  border: 1px solid white;
+}
+
+.flexbox-utrymme-image-container button a {
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -100,6 +107,11 @@
 }
 
 .flexbox-utrymme-image-container button:hover {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+.flexbox-utrymme-image-container button:hover a {
   background-color: #BFBFBF;
   color: black;
 }

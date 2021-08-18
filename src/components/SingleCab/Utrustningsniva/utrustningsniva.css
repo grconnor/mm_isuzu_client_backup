@@ -113,7 +113,14 @@ ul.utrustningsniva-bullet {
   height: 70%;
 }
 
-#utrustningsniva-button {
+.flexbox-utrustningsniva-text-container button {
+  border: none;
+  background-color: #404040;
+  height: 60%;
+  width: 40%;
+}
+
+.flexbox-utrustningsniva-text-container button a {
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -126,14 +133,17 @@ ul.utrustningsniva-bullet {
   border: none;
 }
 
-.flexbox-utrustningsniva-text-container button {
-  color: red;
-}
-
-#utrustningsniva-button:hover {
+.flexbox-utrustningsniva-text-container button:hover {
   background-color: #BFBFBF;
   color: black;
 }
+
+.flexbox-utrustningsniva-text-container button:hover a {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+
 
 .flexbox-utrustningsniva-image-container {
   display: flex;

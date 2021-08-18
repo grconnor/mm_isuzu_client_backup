@@ -38,7 +38,7 @@ const Utrustningsniva = () => {
               <li>Automatiskt helljus</li>
             </ul>
             <button type="button" id="utrustningsniva-button">
-              Se Utrustningslista
+              <a href="https://www.isuzusverige.se/modeller/single-cab/utrustning/">Se Utrustningslista</a>
             </button>
           </div>
           <div className="flexbox-utrustningsniva-image-container">

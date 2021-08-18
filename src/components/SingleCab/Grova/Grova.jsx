@@ -33,9 +33,15 @@ const Grova = () => {
           </div>
           <div className="flexbox-grova-image-container">
             <img src={GrovaImage} alt="grova" id="grova-image" />
-            <button type="button" href="http://www.isuzusverige.se/kop-aga/prislista/">Prislista</button>
-            <button type="button" href="/anlaggningar">Våra Anläggningar</button>
-            <button type="button" href="/provkorning">Boka Provkörning</button>
+            <button type="button">
+              <a href="http://www.isuzusverige.se/kop-aga/prislista/">Prislista</a>
+            </button>
+            <button type="button">
+              <a href="/anlaggningar">Våra Anläggningar</a>
+            </button>
+            <button type="button">
+              <a href="/provkorning">Boka Provkörning</a>
+            </button>
           </div>
         </div>
       </div>

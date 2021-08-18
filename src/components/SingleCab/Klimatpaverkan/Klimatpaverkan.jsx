@@ -22,7 +22,7 @@ const Klimatpaverkan = () => {
           </h4>
           <div className="flexbox-klimatpaverkan-button-container">
             <button type="button" id="klimatpaverkan-button">
-              Läs mer om HVO100
+              <a href="https://www.isuzusverige.se/kopa-aga/hvo100/">Läs mer om HVO100</a>
             </button>
           </div>
         </div>

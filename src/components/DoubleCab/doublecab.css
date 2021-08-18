@@ -42,7 +42,18 @@
   font-weight: 400;
 }
 
+.flexbox-doublecab-text-container button:hover a {
+  color: black;
+}
+
 .flexbox-doublecab-text-container button {
+  height: 44px;
+  width: 300px;
+  border: none;
+  background-color: #c31631;
+}
+
+.flexbox-doublecab-text-container button a {
   height: 44px;
   width: 300px;
   border: none;

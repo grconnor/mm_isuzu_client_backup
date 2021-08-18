@@ -87,6 +87,13 @@
 }
 
 .flexbox-grova-image-container button {
+  background-color: #404040;
+  border: 1px solid white;
+  height: 40px;
+  width: 90%;
+}
+
+.flexbox-grova-image-container button a {
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -96,10 +103,14 @@
   background-color: #404040;
   width: 90%;
   height: 40px;
-  border: none;
 }
 
 .flexbox-grova-image-container button:hover {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+.flexbox-grova-image-container button:hover a {
   background-color: #BFBFBF;
   color: black;
 }

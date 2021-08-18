@@ -14,7 +14,7 @@
 }
 
 .flexbox-fargerextended-top-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 5%;
   display: flex;
   justify-content: left;

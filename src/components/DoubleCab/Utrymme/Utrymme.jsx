@@ -34,17 +34,14 @@ const Utrymme = () => {
           </div>
           <div className="flexbox-utrymme-image-container">
             <img src={UtrymmeImage} alt="utrymme" id="utrymme-image" />
-            <button
-              type="button"
-              href="http://www.isuzusverige.se/kop-aga/prislista/"
-            >
-              Prislista
+            <button type="button">
+              <a href="http://www.isuzusverige.se/kop-aga/prislista/">Prislista</a>
             </button>
-            <button type="button" href="/anlaggningar">
-              Våra Anläggningar
+            <button type="button">
+              <a href="/anlaggningar">Våra Anläggningar</a>
             </button>
-            <button type="button" href="/provkorning">
-              Boka Provkörning
+            <button type="button">
+              <a href="/provkorning">Boka Provkörning</a>
             </button>
           </div>
         </div>

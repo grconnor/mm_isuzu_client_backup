@@ -87,6 +87,23 @@
 }
 
 .flexbox-kompromiss-image-container button {
+  background-color: #404040;
+  width: 90%;
+  height: 40px;
+  border: 1px solid white;
+}
+
+.flexbox-kompromiss-image-container button:hover {
+  background-color: #BFBFBF;
+  color: black;
+}
+
+.flexbox-kompromiss-image-container button:hover a {
+  color: black;
+  background-color: #BFBFBF;
+}
+
+.flexbox-kompromiss-image-container button a {
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -99,10 +116,10 @@
   border: none;
 }
 
-.flexbox-kompromiss-image-container button:hover {
+/* .flexbox-kompromiss-image-container button a:hover {
   background-color: #BFBFBF;
   color: black;
-}
+} */
 
 #kompromiss-image {
   height: 120px;

@@ -33,17 +33,14 @@ const Kompromiss = () => {
           </div>
           <div className="flexbox-kompromiss-image-container">
             <img src={KompromissImage} alt="kompromiss" id="kompromiss-image" />
-            <button
-              type="button"
-              href="http://www.isuzusverige.se/kop-aga/prislista/"
-            >
-              Prislista
+            <button type="button" id="kompromiss-button">
+              <a href="http://www.isuzusverige.se/kopa-aga/prislista/" id="kompromiss-a">Prislista</a>
             </button>
-            <button type="button" href="/anlaggningar">
-              Våra Anläggningar
+            <button type="button" id="kompromiss-button">
+              <a href="/anlaggningar" id="kompromiss-a">Våra Anläggningar</a>
             </button>
-            <button type="button" href="/provkorning">
-              Boka Provkörning
+            <button type="button" id="kompromiss-button">
+              <a href="/provkorning"id="kompromiss-a">Boka Provkörning</a>
             </button>
           </div>
         </div>

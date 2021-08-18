@@ -14,7 +14,11 @@
   background-color: #595959;
   width: 100vw;
   /* margin-left: -157px; */
-  height: 895px;
+  height: 800px;
+}
+
+.flexbox-betyderextended-heading-container {
+  margin-bottom: 5%;
 }
 
 .flexbox-betyderextended-heading-container h1 {

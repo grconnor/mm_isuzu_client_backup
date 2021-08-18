@@ -43,6 +43,17 @@
 }
 
 .flexbox-singlecab-text-container button {
+  border: none;
+  background-color: #c31631;
+  height: 44px;
+  width: 276px;
+}
+
+.flexbox-singlecab-text-container button:hover a {
+  color: black;
+}
+
+.flexbox-singlecab-text-container button a {
   height: 44px;
   width: 276px;
   border: none;

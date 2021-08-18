@@ -23,7 +23,7 @@ const Personlig2 = () => {
             </div>
             <div className="flexbox-personlig2-button-container">
               <button id="personlig2-button" type="button">
-                Utforska Tillbehör
+                <a href="https://isuzusverige.se/tillbehor/">Utforska Tillbehör</a>
               </button>
             </div>
           </div>

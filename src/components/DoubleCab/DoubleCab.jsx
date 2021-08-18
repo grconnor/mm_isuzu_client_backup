@@ -21,7 +21,7 @@ const DoubleCab = () => {
             Double Cab
           </h1>
           <button type="button">
-            Testa D-Max single cab idag
+            <a href="/provkorning">Testa D-Max single cab idag</a>
           </button>
         </div>
       </div>

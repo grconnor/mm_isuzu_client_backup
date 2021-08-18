@@ -101,12 +101,9 @@ const Utrustning = () => {
           </div>
         </div>
         <div className="utrustning-button">
-          <Button animated href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">
-            <Button.Content visible>Jämför Utrustningsnivåer</Button.Content>
-            <Button.Content hidden>
-              <Icon name="arrows alternate horizontal" />
-            </Button.Content>
-          </Button>
+          <button type="button" id="utrustningdouble-button">
+            <a href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">Se Utrustningsnivåer</a>
+          </button>
         </div>
       </div>
     </>
