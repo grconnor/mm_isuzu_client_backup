@@ -32,7 +32,7 @@ const BetyderExtended = () => {
             </div>
             <h1 id="betyderextended-kapacitet-heading">Mer Kapacitet</h1>
             <p id="betyderextended-kapacitet-para">
-              3,5 ton dragvikj och över 1 ton lastvikt. Lägger du till 240 mm
+              3,5 ton dragvikk och över 1 ton lastvikt. Lägger du till 240 mm
               markfrigång och ett vadningsdjup på hela 800 mm är nya D-Max
               svårslagen. Nya D-Max har dessutom begåvats med spårrbar
               differential...

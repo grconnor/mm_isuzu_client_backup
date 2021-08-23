@@ -4,8 +4,71 @@
 }
 
 @font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+@font-face {
   font-family: "Evogria";
   src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html body .flexbox-betyder-heading-container {
+    width: 100% !important;
+    padding: 0 15px 0 15px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 815px) {
+  body .flexbox-betyder-heading-container {
+    width: 60% !important;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 865px) {
+  body .flexbox-funderar-text-container {
+    /* border: 2px solid blue !important; */
+    width: 90% !important;
+    min-width: 0px !important;
+  }
+
+  body .flexbox-betyder-heading-container {
+    /* border: 2px solid red !important; */
+    width: 80%;
+  }
+
+  body .flexbox-betyder-outer-container {
+    align-items: center;
+  }
+}
+/* Medium devices max width (landscape tablets, 768px and up) */
+@media only screen and (max-width: 826px) {
+  body .flexbox-betyder-container {
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  body .flexbox-betyder-outer-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  body .flexbox-betyder-item {
+    height: 500px;
+  }
+
+  body . {
+
+  }
+
+  body . {
+
+  }
+  
 }
 
 .flexbox-betyder-outer-container {
@@ -32,13 +95,16 @@
 }
 
 .flexbox-betyder-container {
+  /* border: 2px solid red; */
   display: flex;
   position: relative;
   flex-direction: row;
-  margin-top: 0;
-  margin-left: 150px;
+  /* margin-top: 0; */
+  /* margin-left: 150px; */
   background-color: white;
-  width: 80vw;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 100vw;
   height: 725px;
   height: inherit;
   justify-content: space-around;
@@ -47,15 +113,14 @@
 
 .flexbox-betyder-item {
   display: block;
-  margin-top: -5%;
+  /* margin-top: -5%; */
   flex-direction: row;
   align-items: center;
   color: #595959;
   text-align: left;
   height: 588px;
-  width: 300px;
-  font-weight: bold;
-  font-family: "Eina01-Regular";
+  width: 240px;
+  padding: 1%;
 }
 
 .flexbox-betyder-item h1 {
@@ -63,28 +128,28 @@
   font-size: 25px;
   font-style: normal;
   line-height: 35px;
-  font-family: "Evogria";
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
 }
 
 .flexbox-betyder-item p {
   height: 200px;
-  width: 288px;
+  width: 100%;
   font-size: 17px;
   line-height: 25px;
   font-family: "Roboto-Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #000000;
-  padding-right: 15%;
+  /* padding-right: 15%; */
 }
 
 .flexbox-betyder-item-image {
-  height: 240px;
-  width: 240px;
+  height: 40%;
+  width: 80%;
 }
 
 .flexbox-betyder-item .ui.button {
-  font-family: "Evigrua";
+  font-family: "Evogria";
   font-size: 18px;
   font-weight: 400;
   background-color: #404040;

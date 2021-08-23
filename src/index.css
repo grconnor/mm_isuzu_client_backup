@@ -34,8 +34,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body .navbar-container{
+
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  body .navbar-container{
+
+  }
+}
+/* Medium devices max width (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  body .navbar-container{
+    background-color: white;
+    height: 6%;
+    /* border: 2px solid blue; */
+  }
+
+  body .mobile-navigation {
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 100%;
+    height: 35%;
+  }
+
+  body .topnav-mobile-hamburger {
+    display: fixed;
+    padding-top: 5px;
+    margin-left: 10px;
+    z-index: 10;
+    
+  }
+
+  body .topnav-mobile-images {
+
+  }
+
+  body .topnav-mobile-images #mobility-logo {
+
+  }
+
+  body .topnav-mobile-images #isuzu-logo {
+
+  }
+  
+}
+
+img { max-width: 100%; height: auto; }
+
+
 .flexbox-content-wrapper {
   min-height: 100vh;
+  width: 100%;
   overflow: hidden;
   display: block;
   position: relative;
@@ -64,25 +121,103 @@ code {
 }
 
 #mobility-logo {
-  margin-top: 15%;
-  padding-left: 15%;
+  border: 2px solid red;
+  margin-top: 18%;
+  padding-left: 20%;
+  height: 50%;
+  width: 100%;
 }
 
 #isuzu-logo {
-  margin-top: 13%;
+  border: 2px solid red;
+  margin-top: 15%;
   padding-left: 0;
   margin-left: 0;
+  width: 100%;
+  height: 60%;
 }
 
 #navbar-row-slogan {
   padding-top: 1%;
 }
 
+.topnav-mobile-hamburger {
+  display: inline;
+  position: fixed;
+  top: 0;
+  padding-top: 3%;
+}
+
+.mobile-nav-outer-container {
+  height: 103px;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-navigation {
+  /* border: 2px solid blue; */
+  height: 47%;
+  width: 100%;
+}
+
+/* display: flex;
+flex-direction: column;
+height: 50px;
+width: 100%;
+justify-content: flex-end; */
+
+.mobile-navigation ul {
+  display: none;
+  background-color: #c31631;
+  border: 2px solid black;
+  height: 50vh;
+  width: 50vw;
+  min-width: 220px;
+  max-width: 265px;
+  /* margin-top: 46px; */
+  position: absolute;
+  padding-top: 25px;
+}
+
+.mobile-navigation ul li {
+  list-style-type: none;
+  padding-right: 10px;
+  /* padding-top: 45px; */
+  width: 100%;
+  height: 10%;
+}
+
+.mobile-navigation ul li a {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: white;
+  display: block;
+  width: 105%;
+  height: 35px;
+  /* padding-top: 20px; */
+}
+
+.mobile-navigation ul li:hover a {
+  color: black;
+}
+
+.mobile-navigation-under {
+  /* border: 2px solid red; */
+  background-color: white;
+  height: 63%;
+}
+
 .navbar-container {
+  /* border: 2px solid red; */
   position: fixed;
   top: 0;
   background: #ffff;
   /* border-bottom: 1px dotted #ccc; */
+  height: 14%;
   width: 100%;
   z-index: 10;
 }
@@ -111,13 +246,11 @@ code {
 /* Main Page Video, Text and Scroll Indicator */
 
 #nyadmax {
-  /* width: 100vw;
-  height: 75vh; */
   position: relative;
   z-index: 0;
   object-fit: cover;
-  width: 100vw;
-  height: 550px;
+  max-width: 100%;
+  height: auto;
   top: 0;
   bottom: 0;
   left: 0;
@@ -139,15 +272,36 @@ code {
 }
 
 .text-overlay {
+  /* border: 2px solid red; */
   position: absolute;
-  width: 50vw;
-  height: 25vh;
+  width: 25%;
+  height: 25%;
   color: white;
-  backdrop-filter: blur(0px);
+  /* backdrop-filter: blur(0px); */
   font-size: 10px;
-  bottom: 50px;
-  left: 30px;
+  bottom: 10%;
+  left: 3%;
   z-index: 1;
+}
+
+.text-overlay button {
+  background-color: #c31631;
+  border: 1px solid black;
+  max-width: 100%;
+  /* height: 35%; */
+  max-height: 100%;
+}
+
+.text-overlay button a {
+  background-color: #c31631;
+  color: white;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
 }
 
 #provkorning-btn {
@@ -227,3 +381,68 @@ input[type=number] {
 #navbar-navigation-menu > div.ui.menu {
   background-color: #9b9b9b;
  }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}

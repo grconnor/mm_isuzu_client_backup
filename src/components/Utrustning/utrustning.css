@@ -13,6 +13,70 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
+@media only screen and (max-width: 400px) {
+  body .flexbox-utrustning-heading-container h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 505px) {
+  body .flexbox-utrustning-heading-container h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 595px) {
+  body .flexbox-utrustning-heading-container {
+    width: 90% !important;
+  }
+} */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 805px) {
+  body .flexbox-utrustning-heading-container {
+    width: 80%;
+  }
+
+  body .flexbox-utrustning-heading-container h2 {
+    width: 80%;
+    }
+}
+/* Medium devices max width (landscape tablets, 768px and up) */
+@media only screen and (max-width: 595px) {
+  body .flexbox-utrustning-top-container {
+    flex-direction: column;
+  }
+
+  body .flexbox-utrustning-bottom-container {
+    flex-direction: column;
+  }
+
+  body .flexbox-utrustning-heading-container {
+    width: 90% !important;
+  }
+
+  body .flexbox-utrustning-outer-container {
+    height: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  body .utrustning-button {
+    width: 230px;
+  }
+
+  body .flexbox- {
+
+  }
+
+  body .flexbox- {
+
+  }
+  
+}
+
 ul.utrustning-bullet li {
   list-style-image: url(../../images/icons/red-bullet-12x12.png);
   display: list-item;
@@ -33,7 +97,9 @@ ul.utrustning-bullet li {
   align-items: center;
   background-color: white;
   width: 100vw;
-  height: 1900px;
+  /* height: 1900px; */
+  min-height: 100%;
+  padding-bottom: 5%;
   /* margin-left: -155px; */
 
 }
@@ -43,6 +109,8 @@ ul.utrustning-bullet li {
   flex-direction: column;
   padding-top: 5%;
   justify-content: center;
+  width: 60%;
+  /* border: 2px solid red; */
 }
 
 .flexbox-utrustning-heading-container h2 {
@@ -53,7 +121,7 @@ ul.utrustning-bullet li {
   color: #595959;
   text-align: left;
   /* border: 3px solid red; */
-  width: 50vw;
+  width: 100%;
   font-style: normal;
   margin: 33px 0px 20px;
 }
@@ -62,7 +130,7 @@ ul.utrustning-bullet li {
   /* border: 3px solid purple; */
   font-family: "Roboto-Condensed", sans-serif;
   font-size: 20px;
-  width: 75vw;
+  width: 100%;
   line-height: 29px;
   font-weight: 400;
   color: #595959;
@@ -118,6 +186,7 @@ ul.utrustning-bullet li {
   /* border: 2px solid red; */
   width: 20%;
   height: 40px;
+  min-width: 220px;
 }
 
 .utrustning-button button {
@@ -125,6 +194,7 @@ ul.utrustning-bullet li {
   background-color: #404040;
   height: 100%;
   width: 100%;
+  min-width: 215px;
 }
 
 .utrustning-button button a {

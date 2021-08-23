@@ -31,8 +31,8 @@ const Utrustning = () => {
         </div>
         <div className="flexbox-utrustning-top-container">
           <div className="flexbox-utrustning-item flexbox-utrustning-item-1">
-            <Image src={xrsIcon} id="xrs-icon" alt="XRS" />
-            <Image src={xrsCar} id="xrs-car" alt="XRS-Car" />
+            <img src={xrsIcon} id="xrs-icon" alt="XRS" />
+            <img src={xrsCar} id="xrs-car" alt="XRS-Car" />
             <h4 id="xrs-heading">
               Ett verktyg för all jobb
             </h4>
@@ -47,8 +47,8 @@ const Utrustning = () => {
             </div>
           </div>
           <div className="flexbox-utrustning-item flexbox-utrustning-item-2">
-            <Image src={xrmIcon} id="xrm-icon" alt="XRM" />
-            <Image src={xrmCar} id="xrm-car" alt="XRM-Car" />
+            <img src={xrmIcon} id="xrm-icon" alt="XRM" />
+            <img src={xrmCar} id="xrm-car" alt="XRM-Car" />
             <h4 id="xrm-heading">
               Utöver XRS erbjuder XRM:
             </h4>
@@ -65,8 +65,8 @@ const Utrustning = () => {
         </div>
         <div className="flexbox-utrustning-bottom-container">
           <div className="flexbox-utrustning-item flexbox-utrustning-item-3">
-            <Image src={xrlIcon} id="xrl-icon" alt="XRL" />
-            <Image src={xrlCar} id="xrl-car" alt="XRL-Car" />
+            <img src={xrlIcon} id="xrl-icon" alt="XRL" />
+            <img src={xrlCar} id="xrl-car" alt="XRL-Car" />
             <h4 id="xrl-heading">
               Utöver XRM erbjuder XRL:
             </h4>
@@ -84,8 +84,8 @@ const Utrustning = () => {
             </div>
           </div>
           <div className="flexbox-utrustning-item flexbox-utrustning-item-4">
-            <Image src={xrxIcon} id="xrx-icon" alt="XRX" />
-            <Image src={xrxCar} id="xrx-car" alt="XRX-Car" />
+            <img src={xrxIcon} id="xrx-icon" alt="XRX" />
+            <img src={xrxCar} id="xrx-car" alt="XRX-Car" />
             <h4 id="xrx-heading">
               Utöver XRL erbjuder XRX:
             </h4>
@@ -101,7 +101,7 @@ const Utrustning = () => {
           </div>
         </div>
         <div className="utrustning-button">
-          <button type="button" id="utrustningdouble-button">
+          <button type="button" id="utrustning-button">
             <a href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">Se Utrustningsnivåer</a>
           </button>
         </div>

@@ -27,16 +27,11 @@ const Antligen = () => {
             </p>
           </div>
           <div className="flexbox-antligen-text-button">
-            <Button animated as={Link} to={{ pathname: "/anlaggningar" }}>
-              <Button.Content visible>Våra Anläggningar</Button.Content>
-              <Button.Content hidden>
-                <Icon name="find" />
-              </Button.Content>
-            </Button>
+            <button type="button"><a href="/anlaggningar">Våra Anläggningar</a></button>
           </div>
         </div>
         <div className="flexbox-antligen-img">
-          <Image src={DoubleCab} alt="isuzu-d-max-double-cab" />
+          <img src={DoubleCab} alt="isuzu-d-max-double-cab" />
         </div>
       </div>
     </>

@@ -1,7 +1,6 @@
 // Library Imports:
 import "./farger.css";
 import React from "react";
-import { Image } from "semantic-ui-react";
 
 // Component Imports:
 
@@ -31,25 +30,25 @@ const Farger = () => {
         <div className="flexbox-farger-image-container">
           <div className="flexbox-farger-top-container">
             <div className="flexbox-farger-item flexbox-farger-item-1">
-              <Image src={splashWhite} id="splash-white" alt="splash-white" />
+              <img src={splashWhite} id="splash-white" alt="splash-white" />
               <div className="color-name">
                 Splash White
               </div>
             </div>
             <div className="flexbox-farger-item flexbox-farger-item-2">
-              <Image src={silkyWhitePearl} id="silky-white-pearl" alt="silky-white-pearl" />
+              <img src={silkyWhitePearl} id="silky-white-pearl" alt="silky-white-pearl" />
               <div className="color-name">
                 Silky White Pearl
               </div>
             </div>
             <div className="flexbox-farger-item flexbox-farger-item-3">
-              <Image src={mercurySilver} id="mercury-silver" alt="mercury-silver" />
+              <img src={mercurySilver} id="mercury-silver" alt="mercury-silver" />
               <div className="color-name">
                 Mercury Silver
               </div>
             </div>
             <div className="flexbox-farger-item flexbox-farger-item-4">
-              <Image src={obsidianGray} id="obsidian-gray" alt="obsidian-gray" />
+              <img src={obsidianGray} id="obsidian-gray" alt="obsidian-gray" />
               <div className="color-name">
                 Obsidian Gray
               </div>
@@ -57,25 +56,25 @@ const Farger = () => {
           </div>
           <div className="flexbox-farger-bottom-container">
             <div className="flexbox-farger-item flexbox-farger-item-5">
-              <Image src={valenciaOrange} id="valencia-orange" alt="valencia-orange" />
+              <img src={valenciaOrange} id="valencia-orange" alt="valencia-orange" />
               <div className="color-name">
                 Valencia Orange
               </div>
             </div>
             <div className="flexbox-farger-item flexbox-farger-item-6">
-              <Image src={redSpinel} id="red-spinel" alt="red-spinel" />
+              <img src={redSpinel} id="red-spinel" alt="red-spinel" />
               <div className="color-name">
                 Red Spinel
               </div>
             </div>
             <div className="flexbox-farger-item flexbox-farger-item-7">
-              <Image src={sapphireBlue} id="sapphire-blue" alt="sapphire-blue" />
+              <img src={sapphireBlue} id="sapphire-blue" alt="sapphire-blue" />
               <div className="color-name">
                 Sapphire Blue
               </div>
             </div>
             <div className="flexbox-farger-item flexbox-farger-item-8">
-              <Image src={onyxBlack} id="onyx-black" alt="onyx-black" />
+              <img src={onyxBlack} id="onyx-black" alt="onyx-black" />
               <div className="color-name">
                 Onyx Black
               </div>

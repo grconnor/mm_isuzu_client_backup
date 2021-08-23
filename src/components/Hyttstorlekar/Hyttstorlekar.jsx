@@ -36,7 +36,7 @@ const Hyttstorlekar = () => {
             <h3 id="hyttstorlekar-item-1-h3">
               Double Cab
             </h3>
-            <Image src={double} id="hyttstorlekar-image-double" alt="double-cab" />
+            <img src={double} id="hyttstorlekar-image-double" alt="double-cab" />
             <h4 id="hyttstorlekar-item-1-h4">
               Utrymme För Allt
             </h4>
@@ -46,14 +46,16 @@ const Hyttstorlekar = () => {
             <h4 id="hyttstorlekar-item-1-h4-2">
               Utrustningsnivåer
             </h4>
-            <Image src={all} id="hyttstorlekar-utrustning-1" alt="utrustningsnivar" />
-            <Image src={twosixnine} id="hyttstorlekar-price-1" alt="price-1" />
+            <div className="flexbox-hyttstorlekar-image-container">
+              <img src={all} id="hyttstorlekar-utrustning-1" alt="utrustningsnivar" />
+              <img src={twosixnine} id="hyttstorlekar-price-1" alt="price-1" />
+            </div>
           </div>
           <div className="flexbox-hyttstorlekar-item flexbox-hyttstorlekar-item-2">
             <h3 id="hyttstorlekar-item-2-h3">
               Extended Cab
             </h3>
-            <Image src={extended} id="hyttstorlekar-image-extended" alt="extended-cab" />
+            <img src={extended} id="hyttstorlekar-image-extended" alt="extended-cab" />
             <h4 id="hyttstorlekar-item-2-h4">
               En Smart Kompromiss
             </h4>
@@ -63,14 +65,16 @@ const Hyttstorlekar = () => {
             <h4 id="hyttstorlekar-item-2-h4-2">
               Utrustningsnivå
             </h4>
-            <Image src={xrm} id="hyttstorlekar-utrustning-2" alt="utrustningsnivar" />
-            <Image src={twosevenfour} id="hyttstorlekar-price-2" alt="price-2" />
+            <div className="flexbox-hyttstorlekar-image-container">
+              <img src={xrm} id="hyttstorlekar-utrustning-2" alt="utrustningsnivar" />
+              <img src={twosevenfour} id="hyttstorlekar-price-2" alt="price-2" />
+            </div>
           </div>
           <div className="flexbox-hyttstorlekar-item flexbox-hyttstorlekar-item-3">
             <h3 id="hyttstorlekar-item-3-h3">
               Single Cab
             </h3>
-            <Image src={single} id="hyttstorlekar-image-single" alt="single-cab" />
+            <img src={single} id="hyttstorlekar-image-single" alt="single-cab" />
             <h4 id="hyttstorlekar-item-3-h4">
               Hundra Procent Funktion
             </h4>
@@ -80,8 +84,10 @@ const Hyttstorlekar = () => {
             <h4 id="hyttstorlekar-item-3-h4-2">
               Utrustningsnivå
             </h4>
-            <Image src={xrs} id="hyttstorlekar-utrustning-3" alt="utrustningsnivar" />
-            <Image src={twofivefour} id="hyttstorlekar-price-3" alt="price-3" />
+            <div className="flexbox-hyttstorlekar-image-container">
+              <img src={xrs} id="hyttstorlekar-utrustning-3" alt="utrustningsnivar" />
+              <img src={twofivefour} id="hyttstorlekar-price-3" alt="price-3" />
+            </div>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const Betyder2 = () => {
               Mer Kapacitet
             </h1>
             <p id="betyder2-kapacitet-para">
-              3,5 ton dragvikj och över 1 ton lastvikt. Lägger du till 240 mm markfrigång och ett vadningsdjup på hela 800 mm är nya D-Max svårslagen. Nya D-Max har dessutom begåvats med spårrbar differential...
+              3,5 ton dragvikt och över 1 ton lastvikt. Lägger du till 240 mm markfrigång och ett vadningsdjup på hela 800 mm är nya D-Max svårslagen. Nya D-Max har dessutom begåvats med spårrbar differential...
             </p>
             {/* <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
               <Button.Content visible>Läs Mer Och Se Video</Button.Content>

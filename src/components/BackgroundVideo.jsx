@@ -1,6 +1,7 @@
 // Library Imports:
 import React from "react";
 import { Button, Image, Icon } from "semantic-ui-react";
+import { useMediaQuery } from "react-responsive";
 
 // Component Imports:
 import ScrollIndicator from "./Scroll Indicator/ScrollIndicator";
@@ -10,6 +11,16 @@ import nyadmax from "../images/double/isuzu-d-max-my20-the-next-generation-picku
 
 
 const BackgroundVideo = () => {
+  const isExtraSmallDevice = useMediaQuery({ query: "(max-width: 767px)" })
+  const isSmallDevice = useMediaQuery({ query: "(min-width: 600px)" })
+  const isMediumDevice = useMediaQuery({ query: "(min-width: 768px)" })
+  const isLargeDevice = useMediaQuery({ query: "(min-width: 992px)" })
+  const isExtraLargeDevice = useMediaQuery({ query: "(min-width: 1200px)" })
+  const isDesktopOrLaptop = useMediaQuery({ query: "(min-width: 1175px)" });
+  const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const isPortrait = useMediaQuery({ query: "(orientation: portrait)" });
+  const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
   return (
     <>
       <div className="video-container">
@@ -19,24 +30,25 @@ const BackgroundVideo = () => {
             type="video/mp4"
           />
         </video> */}
-        <Image src={nyadmax} alt="nya-d-max" id="nyadmax" fluid/>
+        <img src={nyadmax} alt="nya-d-max" id="nyadmax" fluid/>
         <div className="text-overlay">
-          {/* <h1>
-            "NEXT GENERATION PICKUP"
-            <br />
-            "NYA D-MAX"
-          </h1> */}
-          <p>
-            <Button animated id="provkorning-btn" href="/provkorning">
-              <Button.Content visible>Boka Provkörning</Button.Content>
-              <Button.Content hidden>
-                <Icon name="car" />
-              </Button.Content>
-            </Button>
-          </p>
+          {isMediumDevice && (
+            <button type="button" id="text-overlay-provkorning-button">
+              <a href="/provkorning">Boka Provkörning</a>
+            </button>
+          )}
+          {isExtraSmallDevice && (
+            <button type="button" id="text-overlay-provkorning-button">
+              <a href="/provkorning">Boka</a>
+            </button>
+          )}
         </div>
       </div>
-      <ScrollIndicator />
+      {/* {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
+      {isBigScreen && <p>You  have a huge screen</p>} */}
+      {isMediumDevice && (
+        <ScrollIndicator />
+      )}
     </>
   );
 };

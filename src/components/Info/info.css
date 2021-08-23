@@ -3,9 +3,79 @@
   src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto-Condensed";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 900px) {
+  body .flexbox-info-item {
+    /* border: 2px solid blue !important; */
+    width: 50% !important;
+    height: 70%;
+  }
+
+  body .flexbox-info-image {
+    padding-bottom: 25% !important;
+  }
+}
+/* Medium devices max width (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1030px) {
+  body .flexbox-info-container {
+    flex-direction: column;
+    align-items: space-between !important;
+    height: 100%;
+    width: 100vw;
+    /* border: 2px solid red; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  body .flexbox-info-item {
+    width: 40%;
+    height: 70%;
+    margin: 20px 0;
+    /* border: 2px solid red; */
+  }
+
+  body .flexbox-info-image {
+    padding-bottom: 10%;
+  }
+
+  body . {
+
+  }
+
+  body . {
+
+  }
+
+  body . {
+
+  }
+  
+}
+
+img { max-width: 100%; height: auto; }
+
 .flexbox-info-container {
   display: flex;
   position: relative;
+  flex-direction: row;
   margin-top: 0;
   /* border: 3px solid red; */
   background-color: #595959;
@@ -17,19 +87,18 @@
 }
 
 .flexbox-info-item {
+  /* border: 2px solid red; */
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   text-align: center;
-  font-weight: bold;
-  font-family: "Eina01-Regular";
 }
 
 .flexbox-info-item h1 {
-  font-weight: bolder;
-  margin-top: 15%;
-  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 15%; */
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-size: 30px;
 }
 

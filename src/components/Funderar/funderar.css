@@ -13,6 +13,64 @@
   src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 865px) {
+  body .flexbox-funderar-text-container {
+    /* border: 2px solid blue !important; */
+    width: 80% !important;
+    min-width: 0px !important;
+  }
+
+  body .flexbox-funderar-heading-container {
+    width: 100%;
+  }
+}
+/* Medium devices max width (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1030px) {
+  body .flexbox-funderar-container {
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    /* border: 2px solid red; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  body .flexbox-funderar-video {
+    order: 2;
+  }
+
+  body .flexbox-funderar-text-container {
+    /* border: 2px solid red; */
+    width: 60%;
+    /* min-width: 554px; */
+  }
+
+  body . {
+
+  }
+
+  body . {
+
+  }
+
+  body . {
+
+  }
+  
+}
+
+video { max-width: 100%; height: auto; margin-top: 4%; }
+
+
 .flexbox-funderar-container {
   display: flex;
   position: relative;
@@ -43,12 +101,16 @@
   justify-content: center;
   background-color: #D9D9D9;
   color: #595959;
-  width: 45vw;
-  height: ;
+  width: 50%;
   align-items: left;
   text-align: left;
   font-weight: bold;
   font-family: "Evogria";
+}
+
+.flexbox-funderar-heading-container {
+  /* border: 2px solid red; */
+  width: 100%;
 }
 
 .flexbox-funderar-text-container h1 {
@@ -63,17 +125,33 @@
 .flexbox-funderar-paragraph-container p {
   font-family: "Roboto-Condensed";
   font-size: 18px;
-  line-height: 29px;
+  line-height: 26px;
   font-style: normal;
   font-weight: 400;
   color: black;
   padding-top: 3%;
 }
 
-.flexbox-funderar-text-button .ui.animated.button {
-  font-size: 18px;
-  color: white;
-  background-color: #595959;
+.flexbox-funderar-text-button button {
+  background-color: #c31631;
   margin-top: 5%;
-  font-family: "Evogria";
+  height: 40px;
+  width: 150px;
+  border: none;
+}
+
+.flexbox-funderar-text-button button a {
+  background-color: #c31631;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.flexbox-funderar-text-button button:hover a {
+  color: black;
 }

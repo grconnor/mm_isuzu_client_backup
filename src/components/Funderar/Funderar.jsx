@@ -36,12 +36,15 @@ const Funderar = () => {
             </p>
           </div>
           <div className="flexbox-funderar-text-button">
-            <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
+            {/* <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
               <Button.Content visible>Läs Mer Här</Button.Content>
               <Button.Content hidden>
                 <Icon name="eye" />
               </Button.Content>
-            </Button>
+            </Button> */}
+            <button type="button">
+              <a href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">Läs mer här</a>
+            </button>
           </div>
         </div>
       </div>
