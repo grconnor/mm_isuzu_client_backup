@@ -11,9 +11,8 @@ import Hamburger from "./Hamburger/Hamburger";
 import isuzuLogo from "../images/logos/isuzu_logo.png";
 import mobilityLogo from "../images/logos/mobility_motors_logo.png";
 
-const MenuColor = ["white"];
-
 const NavigationBar = () => {
+  const [inHover, setInHover] = useState(false);
   const [activeItem, setActiveItem] = useState("");
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   const handleItemClick = ({ name }) => {
@@ -21,20 +20,23 @@ const NavigationBar = () => {
   };
   function toggleHamburger() {
     setHamburgerOpen(!hamburgerOpen);
+  }
+
+  const handleRedirect = () => {
+    window.location.href = "/";
   };
 
-  
-  
-  const isExtraSmallDevice = useMediaQuery({ query: "(max-width: 767px)" });
-  const isSmallDevice = useMediaQuery({ query: "(min-width: 600px)" });
-  const isMediumDevice = useMediaQuery({ query: "(min-width: 768px)" });
-  const isLargeDevice = useMediaQuery({ query: "(min-width: 992px)" });
-  const isExtraLargeDevice = useMediaQuery({ query: "(min-width: 1200px)" });
-  const isDesktopOrLaptop = useMediaQuery({ query: "(min-width: 1175px)" });
-  const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
-  const isPortrait = useMediaQuery({ query: "(orientation: portrait)" });
-  const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
+  const handleMouseEnter = () => {
+    setInHover(true);
+  };
+
+  const handleMouseLeave = () => {
+    setInHover(false);
+  };
+
+  const isMobileDevice = useMediaQuery({ query: "(max-width: 1201px)" });
+  const isComputerDevice = useMediaQuery({ query: "(min-width: 1202px)" });
+
 
   const list = document.getElementById("mobile-navigation-list");
   const burger1 = document.getElementById("burger1");
@@ -59,7 +61,7 @@ const NavigationBar = () => {
 
   if (burger2) {
     if (hamburgerOpen) {
-      burger2.style.transform = "translateX(100%)"
+      burger2.style.transform = "translateX(100%)";
       burger2.style.opacity = 0;
     } else {
       burger2.style.transform = "translateX(0)";
@@ -77,44 +79,25 @@ const NavigationBar = () => {
 
   return (
     <div className="navbar-container">
-      {isMediumDevice && (
+      {isComputerDevice && (
         <Header id="navbar-header">
-          <Grid id="navbar-grid">
-            <Grid.Row columns={4} id="navbar-row">
-              <Grid.Column
-                id="navbar-row-mobility"
-                width={2}
-                textAlign="center"
-                href="/"
-              >
-                <img
-                  id="mobility-logo"
-                  src={mobilityLogo}
-                  alt="Mobility Motors"
-                />
-              </Grid.Column>
-              <Grid.Column
-                id="navbar-row-isuzu"
-                width={2}
-                textAlign="center"
-                href="/"
-              >
-                <img
-                  id="isuzu-logo"
-                  src={isuzuLogo}
-                  alt="Isuzu"
-                  height="25px"
-                />
-              </Grid.Column>
-              <Grid.Column id="empty-column" width={4}></Grid.Column>
-              <Grid.Column id="navbar-row-slogan" width={4} textAlign="right">
-                Hitta din bil idag!
-              </Grid.Column>
-            </Grid.Row>
-          </Grid>
           <Header.Subheader id="navbar-navigation">
-            <Menu id="navbar-navigation-menu" color={MenuColor}>
-              <Menu.Item></Menu.Item>
+            <Menu id="navbar-navigation-menu">
+              <div
+                className="flexbox-navigationbar-menu-logo-message-container"
+                onClick={handleRedirect}
+                // onMouseEnter={handleMouseEnter}
+                // onMouseLeave={handleMouseLeave}
+              >
+                <div className="flexbox-navigationbar-menu-logo-container">
+                  <img src={mobilityLogo} alt="mm_logo" />
+                </div>
+                {/* {inHover && (
+                  <div className="flexbox-navigationbar-menu-message-container">
+                    <p id="navigationbar-message">Go home</p>
+                  </div>
+                )} */}
+              </div>
               <Menu.Item
                 id="navbar-navigation-menu-modeller"
                 name="modeller"
@@ -178,7 +161,7 @@ const NavigationBar = () => {
           </Header.Subheader>
         </Header>
       )}
-      {isExtraSmallDevice && (
+      {isMobileDevice && (
         <>
           <div className="mobile-nav-outer-container">
             <div className="mobile-navigation">
@@ -189,21 +172,36 @@ const NavigationBar = () => {
                 Image 2
               </div> */}
               <ul id="mobile-navigation-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/modeller">Modeller</a></li>
-                <li><a href="https://isuzusverige.se/tillbehor/">Tillbehör</a></li>
-                <li><a href="/om-oss">Om Oss</a></li>
-                <li><a href="/provkorning">Boka Provkörning</a></li>
-                <li><a href="/anlaggningar">Våra Anläggningar</a></li>
-                <li><a href="/kontakt">Kontakt</a></li>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/modeller">Modeller</a>
+                </li>
+                <li>
+                  <a href="https://isuzusverige.se/tillbehor/">Tillbehör</a>
+                </li>
+                <li>
+                  <a href="/om-oss">Om Oss</a>
+                </li>
+                <li>
+                  <a href="/provkorning">Boka Provkörning</a>
+                </li>
+                <li>
+                  <a href="/anlaggningar">Våra Anläggningar</a>
+                </li>
+                <li>
+                  <a href="/kontakt">Kontakt</a>
+                </li>
               </ul>
-              <div className="topnav-mobile-hamburger" onClick={toggleHamburger}>
+              <div
+                className="topnav-mobile-hamburger"
+                onClick={toggleHamburger}
+              >
                 <Hamburger isOpen={hamburgerOpen} />
               </div>
             </div>
-            <div className="mobile-navigation-under">
-              
-            </div>
+            {/* <div className="mobile-navigation-under"></div> */}
           </div>
         </>
       )}

@@ -1,9 +1,4 @@
 @font-face {
-  font-family: 'Eina01-Regular';
-  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
-}
-
-@font-face {
   font-family: "Evogria";
   src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
 }
@@ -18,9 +13,10 @@
   position: relative;
   flex-direction: column;
   width: 100vw;
-  height: 900px;
+  /* height: 900px; */
+  height: 100%;
   background-color: #FFFFFF;
-  padding-top: 5%;
+  padding: 50px 0 25px 0;
 }
 
 .flexbox-bilder-interior-heading-container {
@@ -32,29 +28,34 @@
 }
 
 .flexbox-bilder-interior-heading-container h2 {
-  width: 75vw;
-  text-align: left;
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
-  font-size: 50px;
+  font-style: normal;
+  text-align: left;
   line-height: 60px;
   font-weight: 100;
+  font-size: 50px;
+  width: 75vw;
   color: #595959;
-  font-style: normal;
 }
 
 .flexbox-bilder-interior-heading-container p {
-  width: 75vw;
   font-family: "Roboto-Condensed", sans-serif;
-  font-size: 18px;
+  font-style: normal;
+  text-align: left;
   line-height: 29px;
   font-weight: 400;
+  font-size: 18px;
+  width: 75vw;
   color: #595959;
-  text-align: left;
 }
 
 .flexbox-bilder-interior-image-inner-container {
-  height: 680px;
-  width: 460px;
+  /* height: 680px; */
+  height: 100%;
+  /* width: 460px; */
+  width: 50%;
+  min-width: 300px;
+  max-width: 900px;
 }
 
 .flexbox-bilder-interior-image-outer-container {
@@ -62,6 +63,6 @@
   position: relative;
   justify-content: center;
   width: 100vw;
-  height: 730px;
-  padding-top: 3%;
+  /* height: 730px; */
+  margin-top: 25px;
 }

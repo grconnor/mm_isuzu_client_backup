@@ -28,12 +28,6 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 865px) {
-  body .flexbox-funderar-text-container {
-    /* border: 2px solid blue !important; */
-    width: 90% !important;
-    min-width: 0px !important;
-  }
-
   body .flexbox-betyder-heading-container {
     /* border: 2px solid red !important; */
     width: 80%;
@@ -44,7 +38,7 @@
   }
 }
 /* Medium devices max width (landscape tablets, 768px and up) */
-@media only screen and (max-width: 826px) {
+@media only screen and (max-width: 1100px) {
   body .flexbox-betyder-container {
     flex-direction: column;
     /* border: 2px solid red; */
@@ -58,26 +52,22 @@
   }
 
   body .flexbox-betyder-item {
-    height: 500px;
+    height: 100%;
+    margin-bottom: 25px;
   }
-
-  body . {
-
-  }
-
-  body . {
-
-  }
-  
 }
 
 .flexbox-betyder-outer-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   width: 100vw;
   /* margin-left: -157px; */
-  height: 895px;
+  /* height: 895px; */
+  height: 100%;
+  padding: 75px 0;
 }
 
 .flexbox-betyder-heading-container h1 {
@@ -85,7 +75,7 @@
   position: relative;
   color: #595959;
   justify-content: center;
-  padding-top: 4%;
+  /* padding-top: 4%; */
   font-family: "Evogria";
   font-size: 50px;
   line-height: 60px;
@@ -104,21 +94,25 @@
   background-color: white;
   padding-left: 1%;
   padding-right: 1%;
-  width: 100vw;
-  height: 725px;
+  width: 90vw;
+  max-width: 1445px;
+  /* height: 725px; */
+  height: 100%;
   height: inherit;
   justify-content: space-around;
   align-items: center;
 }
 
 .flexbox-betyder-item {
+  /* border: 2px solid blue; */
   display: block;
   /* margin-top: -5%; */
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   color: #595959;
   text-align: left;
-  height: 588px;
+  /* height: 588px; */
   width: 240px;
   padding: 1%;
 }
@@ -132,7 +126,8 @@
 }
 
 .flexbox-betyder-item p {
-  height: 200px;
+  /* height: 200px; */
+  /* height: 100%; */
   width: 100%;
   font-size: 17px;
   line-height: 25px;
@@ -144,8 +139,16 @@
 }
 
 .flexbox-betyder-item-image {
-  height: 40%;
-  width: 80%;
+  /* border: 2px solid red; */
+  /* height: 40%; */
+  height: 207px;
+  width: 100%;
+}
+
+.flexbox-betyder-item-image img {
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 100%;
 }
 
 .flexbox-betyder-item .ui.button {

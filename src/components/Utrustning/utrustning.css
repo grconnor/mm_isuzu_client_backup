@@ -1,16 +1,38 @@
 @font-face {
-  font-family: 'Eina01-Regular';
-  src: local('Eina01-Regular'), url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+  font-family: "Eina01-Regular";
+  src: local("Eina01-Regular"),
+    url(../../fonts/Eina01-Regular/Eina01-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Evogria";
-  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+  src: local("Evogria"),
+    url(../../fonts/evogria-cufonfonts/Evogria.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Roboto-Condensed";
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+@media only screen and (max-width: 1550px) {
+  body #xrs-car,
+  body #xrm-car,
+  body #xrl-car,
+  body #xrx-car {
+    /* height: 288px; */
+    /* width: 520px; */
+    height: 216px;
+    width: 390px;
+  }
+
+  body #xrs-icon,
+  body #xrm-icon,
+  body #xrl-icon,
+  body #xrx-icon {
+    height: 38.25px;
+    width: 60px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -41,10 +63,10 @@
 
   body .flexbox-utrustning-heading-container h2 {
     width: 80%;
-    }
+  }
 }
-/* Medium devices max width (landscape tablets, 768px and up) */
-@media only screen and (max-width: 595px) {
+/* Medium devices max width (WAS 595px, landscape tablets, 768px and up) */
+@media only screen and (max-width: 1070px) {
   body .flexbox-utrustning-top-container {
     flex-direction: column;
   }
@@ -67,14 +89,29 @@
     width: 230px;
   }
 
-  body .flexbox- {
-
+  body #xrs-car,
+  body #xrm-car,
+  body #xrl-car,
+  body #xrx-car {
+    /* height: 288px; */
+    height: auto;
+    /* width: 520px; */
+    /* height: 288px; */
+    width: 520px;
   }
 
-  body .flexbox- {
-
+  body #xrs-icon,
+  body #xrm-icon,
+  body #xrl-icon,
+  body #xrx-icon {
+    height: 51px;
+    width: 80px;
   }
-  
+
+  body .flexbox-utrustning-item {
+    width: 100%;
+    min-width: unset;
+  }
 }
 
 ul.utrustning-bullet li {
@@ -91,6 +128,7 @@ ul.utrustning-bullet li {
 }
 
 .flexbox-utrustning-outer-container {
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   position: relative;
@@ -101,20 +139,19 @@ ul.utrustning-bullet li {
   min-height: 100%;
   padding-bottom: 5%;
   /* margin-left: -155px; */
-
 }
 
 .flexbox-utrustning-heading-container {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding-top: 5%;
   justify-content: center;
   width: 60%;
-  /* border: 2px solid red; */
 }
 
 .flexbox-utrustning-heading-container h2 {
-  font-family: "Evogria";
+  font-family: "Evogria", sans-serif;
   font-size: 50px;
   line-height: 60px;
   font-weight: 100;
@@ -140,23 +177,37 @@ ul.utrustning-bullet li {
 }
 
 .flexbox-utrustning-top-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
-  padding-top: 5%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 25px;
 }
 
 .flexbox-utrustning-bottom-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .flexbox-utrustning-item {
-  display: block;
-  flex-direction: row;
+  /* border: 2px solid blue; */
+  width: 40%;
+  min-width: 425px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   padding-top: 5%;
   text-align: left;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .flexbox-utrustning-item h4 {
@@ -168,18 +219,29 @@ ul.utrustning-bullet li {
   color: #595959;
 }
 
-.flexbox-utrustning-item-3, .flexbox-utrustning-item-4 {
+.flexbox-utrustning-item-3,
+.flexbox-utrustning-item-4 {
   padding: 56px 2%;
 }
 
-#xrs-icon, #xrm-icon, #xrl-icon, #xrx-icon {
+#xrs-icon,
+#xrm-icon,
+#xrl-icon,
+#xrx-icon {
   height: 51px;
   width: 80px;
 }
 
-#xrs-car, #xrm-car, #xrl-car, #xrx-car {
-  height: 288px;
-  width: 520px;
+#xrs-car,
+#xrm-car,
+#xrl-car,
+#xrx-car {
+  /* height: 288px; */
+  height: auto;
+  width: 100%;
+  /* width: 520px; */
+  /* max-width: 100%; */
+  min-width: 260px;
 }
 
 .utrustning-button {
@@ -195,6 +257,7 @@ ul.utrustning-bullet li {
   height: 100%;
   width: 100%;
   min-width: 215px;
+  max-width: 342px;
 }
 
 .utrustning-button button a {
@@ -207,16 +270,17 @@ ul.utrustning-bullet li {
   background-color: #404040;
   height: 100%;
   width: 100%;
+  max-width: 342px;
   border: none;
 }
 
 .utrustning-button button:hover {
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
   color: black;
 }
 
 .utrustning-button button:hover a {
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
   color: black;
 }
 

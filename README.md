@@ -2,8 +2,8 @@
 
 # To-do:
 
-- 
-- 
+- Add padding above Färder's top row container. ( below heading )
+- Fix spacing at bottom of Färger.
 - 
 
 # Fixes:

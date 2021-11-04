@@ -46,9 +46,9 @@ const BackgroundVideo = () => {
       </div>
       {/* {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
       {isBigScreen && <p>You  have a huge screen</p>} */}
-      {isMediumDevice && (
+      {/* {isMediumDevice && (
         <ScrollIndicator />
-      )}
+      )} */}
     </>
   );
 };

@@ -50,24 +50,24 @@ body {
 
   }
 }
-/* Medium devices max width (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+/* Medium devices max width (below was 768, landscape tablets, 768px and up) */
+@media only screen and (max-width: 1200px) {
   body .navbar-container{
     background-color: white;
-    height: 6%;
+    height: 60px;
     /* border: 2px solid blue; */
   }
 
   body .mobile-navigation {
     /* border: 2px solid red; */
-    background-color: white;
-    width: 100%;
-    height: 35%;
+    background-color: black;
+    /* width: 100%; */
+    /* height: 35%; */
   }
 
   body .topnav-mobile-hamburger {
     display: fixed;
-    padding-top: 5px;
+    padding-top: 17px;
     margin-left: 10px;
     z-index: 10;
     
@@ -87,7 +87,7 @@ body {
   
 }
 
-img { max-width: 100%; height: auto; }
+/* img { max-width: 100%; height: auto; } */
 
 
 .flexbox-content-wrapper {
@@ -96,7 +96,7 @@ img { max-width: 100%; height: auto; }
   overflow: hidden;
   display: block;
   position: relative;
-  padding-top: 103px;
+  padding-top: 60px;
   padding-bottom: 620px;
 }
 
@@ -145,19 +145,19 @@ code {
   display: inline;
   position: fixed;
   top: 0;
-  padding-top: 3%;
 }
 
 .mobile-nav-outer-container {
-  height: 103px;
+  height: 60px;
   border: 2px solid blue;
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 .mobile-navigation {
   /* border: 2px solid blue; */
-  height: 47%;
+  /* height: 47%; */
   width: 100%;
 }
 
@@ -217,7 +217,7 @@ justify-content: flex-end; */
   top: 0;
   background: #ffff;
   /* border-bottom: 1px dotted #ccc; */
-  height: 14%;
+  height: 70px;
   width: 100%;
   z-index: 10;
 }
@@ -227,7 +227,9 @@ justify-content: flex-end; */
 #navbar-navigation-menu {
   justify-content: center;
   text-transform: capitalize !important;
-  background-color: #c31631;
+  /* background-color: #c31631; */
+  background-color: black;
+  height: 80px;
 }
 
 #navbar-navigation-menu-modeller, #navbar-navigation-menu-tillbehor, #navbar-navigation-menu-om-oss, #navbar-navigation-menu-provkorning, #navbar-navigation-menu-anlaggningar, #navbar-navigation-menu-kontakt {
@@ -240,7 +242,57 @@ justify-content: flex-end; */
 }
 
 #navbar-navigation-menu-modeller:hover, #navbar-navigation-menu-tillbehor:hover, #navbar-navigation-menu-om-oss:hover, #navbar-navigation-menu-provkorning:hover, #navbar-navigation-menu-anlaggningar:hover, #navbar-navigation-menu-kontakt:hover {
-  color: black;
+  color: #c31531;
+}
+
+.flexbox-navigationbar-menu-logo-container {
+  /* border: 2px solid red; */
+  background-color: white;
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  margin-left: 20px;
+  position: fixed;
+}
+
+.flexbox-navigationbar-menu-logo:hover {
+  background-color: #C40928;
+  cursor: pointer;
+}
+
+.flexbox-navigationbar-menu-logo img {
+  height: 28px;
+  width: 188px;
+}
+
+.flexbox-navigationbar-menu-logo-message-container {
+  /* border: 2px solid blue; */
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  /* margin-left: 30px; */
+  /* margin-top: 20px; */
+}
+
+.flexbox-navigationbar-menu-message-container {
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  width: 200px;
+  height: 100%;
+}
+
+.flexbox-navigationbar-menu-message-container p {
+  color: white;
 }
 
 /* Main Page Video, Text and Scroll Indicator */
@@ -249,8 +301,9 @@ justify-content: flex-end; */
   position: relative;
   z-index: 0;
   object-fit: cover;
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
+  width: 100vw;
   top: 0;
   bottom: 0;
   left: 0;
@@ -374,12 +427,13 @@ input[type=number] {
 }
 
 .ui.menu .dropdown.item .menu {
-  width: 300%;
+  width: 400%;
   background-color: #9b9b9b;
 }
 
 #navbar-navigation-menu > div.ui.menu {
   background-color: #9b9b9b;
+  border: 2px solid blue;
  }
 
  /* Large devices (laptops/desktops, 992px and up) */

@@ -33,12 +33,6 @@ const Betyder = () => {
             <p id="kapacitet-para">
               3,5 ton dragvikt och över 1 ton lastvikt. Lägger du till 240 mm markfrigång och ett vadningsdjup på hela 800 mm är nya D-Max svårslagen. Nya D-Max har dessutom begåvats med spårrbar differential...
             </p>
-            {/* <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
-              <Button.Content visible>Läs Mer Och Se Video</Button.Content>
-              <Button.Content hidden>
-                <Icon name="file text" />
-              </Button.Content>
-            </Button> */}
           </div>
           <div className="flexbox-betyder-item flexbox-betyder-item-2">
             <div className="flexbox-betyder-item-image">
@@ -50,12 +44,6 @@ const Betyder = () => {
             <p id="styrka-para">
               D-Max är byggd med den kraftigaste ramen på marknaden. Det gör att den tål tung last och kan köras i besvärlig terräng, samtidigt. Även bromsskivor och trummor har graderats upp. D-Max är redo för...
             </p>
-            {/* <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
-              <Button.Content visible>Läs Mer Och Se Video</Button.Content>
-              <Button.Content hidden>
-                <Icon name="file text" />
-              </Button.Content>
-            </Button> */}
           </div>
           <div className="flexbox-betyder-item flexbox-betyder-item-3">
             <div className="flexbox-betyder-item-image">
@@ -67,12 +55,6 @@ const Betyder = () => {
             <p id="sakerhet-para">
               Vår vision är att erbjuda den säkraste pickupen på marknaden. Autobroms, kollisionsvarnare, adaptiv farthållare, trafikskyltsavläsning och filassistans, för att nämna några av säkerhetssystemen...
             </p>
-            {/* <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
-              <Button.Content visible>Läs Mer Och Se Video</Button.Content>
-              <Button.Content hidden>
-                <Icon name="file text" />
-              </Button.Content>
-            </Button> */}
           </div>
           <div className="flexbox-betyder-item flexbox-betyder-item-4">
             <div className="flexbox-betyder-item-image">
@@ -84,12 +66,6 @@ const Betyder = () => {
             <p id="komfort-para">
               Den nya fjädringen i D-Max ger mjuk och komfortabel körning både med full last och när du kör helt olastat. Personbilskänslan förstärks ytterligare med 2-zons klimatanläggning och 9-tums touch-skärm...
             </p>
-            {/* <Button animated href="https://www.isuzusverige.se/kopa-aga/tester-och-omdomen/">
-              <Button.Content visible>Läs Mer Och Se Video</Button.Content>
-              <Button.Content hidden>
-                <Icon name="file text" />
-              </Button.Content>
-            </Button> */}
           </div>
         </div>
       </div>
