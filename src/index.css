@@ -97,7 +97,7 @@ body {
   display: block;
   position: relative;
   padding-top: 60px;
-  padding-bottom: 620px;
+  /* padding-bottom: 620px; */
 }
 
 code {

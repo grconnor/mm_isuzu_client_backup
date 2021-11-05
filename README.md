@@ -4,7 +4,9 @@
 
 - Add padding above Färder's top row container. ( below heading )
 - Fix spacing at bottom of Färger.
-- 
+- Onhover for nav image.
+- Fix personlig image sizing for mobile. Width change but not height.
+- Change fav icon.
 
 # Fixes:
 

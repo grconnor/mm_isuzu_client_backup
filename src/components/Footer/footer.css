@@ -8,19 +8,30 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
-html, body {
+/* html, body {
   height: 100%;
   position: relative;
+} */
+
+@media only screen and (max-width: 850px) {
+  body .flexbox-footer-nav-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
 }
 
 .flexbox-footer-outer-container {
+  /* border: 2px solid red; */
   width: 100vw;
   height: 625px;
-  position: absolute;
-  bottom: -5px;
+  position: relative;
+  bottom: 0;
 }
 
 .flexbox-footer-nav-container {
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -77,19 +88,21 @@ html, body {
 }
 
 .flexbox-footer-footer-container {
+  /* border: 2px solid red; */
   background-color: #595959;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   width: 100vw;
-  height: 520px;
+  height: 100%;
 }
 
 .flexbox-footer-footer-item {
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
-  width: 20vw;
+  width: 200px;
 }
 
 .flexbox-footer-footer-item-heading-container {

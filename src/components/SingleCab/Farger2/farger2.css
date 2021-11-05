@@ -13,13 +13,30 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
+@media only screen and (max-width: 1000px) {
+  /* body .flexbox-utrustningsniva-text-container {
+    width: 50%;
+    min-width: 301px;
+  } */
+
+  body .flexbox-farger2-image-container {
+    width: 70%;
+    max-width: 575px;
+    min-width: 301px;
+  }
+
+
+}
+
 .flexbox-farger2-outer-container {
   /* border: 2px solid red; */
   width: 100vw;
-  height: 640px;
+  /* height: 640px; */
+  height: 100%;
   background-color: white;
   justify-content: center;
   display: flex;
+  padding: 50px 0;
 }
 
 .flexbox-farger2-inner-container {
@@ -29,7 +46,8 @@
   justify-content: space-evenly;
   align-items: center;
   width: 75%;
-  height: 100%;
+  min-width: 301px;
+  /* height: 100%; */
 }
 
 .flexbox-farger2-heading-container {
@@ -58,6 +76,7 @@
 }
 
 .flexbox-farger2-text-container {
+  /* border: 2px solid red; */
   color: #595959;
   font-family: "Evogria", "Roboto-Condensed", sans-serif;
   font-style: normal;
@@ -71,9 +90,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#farger2-image {
-  height: 288px;
   width: 520px;
 }
+
+.flexbox-farger2-image-container img {
+  /* max-width: 100%;
+  min-width: 50%; */
+  height: auto;
+  width: 520px;
+}
+
+/* #farger2-image {
+  height: 288px;
+  width: 520px;
+} */

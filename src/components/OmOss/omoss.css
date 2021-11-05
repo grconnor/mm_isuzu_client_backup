@@ -23,10 +23,11 @@
 }
 
 .flexbox-omoss-outer-text-container {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   background-color: white;
-  height: 1150px;
+  height: 100%;
   width: 80%;
+  padding: 50px 0;
 }
 
 .flexbox-omoss-heading-container {
@@ -67,10 +68,10 @@
 
 .flexbox-omoss-heading-paragraph-container {
   /* border: 2px solid greenyellow; */
-  margin-top: 3%;
+  margin: 50px 0;
   text-align: center;
   width: 65%;
-  height: 60%;
+  height: 100%;
 }
 
 .flexbox-omoss-heading-paragraph-container p {
