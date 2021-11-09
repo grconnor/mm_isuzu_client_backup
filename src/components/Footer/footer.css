@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Evogria";
-  src: local('Evogria'), url(../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+  src: local("Evogria"),
+    url(../../fonts/evogria-cufonfonts/Evogria.otf) format("opentype");
 }
 
 @font-face {
@@ -22,10 +23,28 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  body .flexbox-footer-footer-container {
+    /* border: 2px solid blue; */
+    background-color: #595959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  body .flexbox-footer-footer-item {
+    min-height: unset;
+  }
+}
+
 .flexbox-footer-outer-container {
   /* border: 2px solid red; */
   width: 100vw;
-  height: 625px;
+  height: 100%;
   position: relative;
   bottom: 0;
 }
@@ -37,11 +56,11 @@
   justify-content: center;
   width: 100vw;
   height: 100px;
-  background-color: #C31631;
+  background-color: #c31631;
 }
 
 .flexbox-footer-nav-item {
-  background-color: #C31631;
+  background-color: #c31631;
   height: 100px;
   width: 250px;
   display: flex;
@@ -96,6 +115,7 @@
   flex-direction: row;
   width: 100vw;
   height: 100%;
+  padding: 50px 0;
 }
 
 .flexbox-footer-footer-item {
@@ -103,9 +123,12 @@
   display: flex;
   flex-direction: column;
   width: 200px;
+  height: 100%;
+  min-height: 195px;
 }
 
 .flexbox-footer-footer-item-heading-container {
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,18 +147,20 @@
 }
 
 .flexbox-footer-footer-item-link-container-1 {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100px;
+  height: 100%;
   width: 100%;
 }
 
 .flexbox-footer-footer-item-link-container-2 {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100px;
+  height: 100%;
   width: 100%;
 }
 

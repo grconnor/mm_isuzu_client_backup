@@ -7,6 +7,10 @@
 - Onhover for nav image.
 - Fix personlig image sizing for mobile. Width change but not height.
 - Change fav icon.
+- Padding/margin in single cab utrustningsniva.
+- Padding/margin above image in single cab Farger.
+- Image squash in single cab Personlig.
+- Footer in mobile???
 
 # Fixes:
 
