@@ -10,7 +10,9 @@
 - Padding/margin in single cab utrustningsniva.
 - Padding/margin above image in single cab Farger.
 - Image squash in single cab Personlig.
-- Footer in mobile???
+- Anlaggningar padding to make them centered.
+- Anlaggningar padding top.
+- 
 
 # Fixes:
 
