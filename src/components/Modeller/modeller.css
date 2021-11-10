@@ -18,11 +18,10 @@
   background-color: white;
   /* height: 400px; */
   height: 100%;
-  min-height: 550px;
-  width: 100vw;
+  min-height: 600px;
+  width: 101vw;
   display: flex;
   align-items: center;
-  margin-top: 15px;
 }
 
 .flexbox-modeller-container {

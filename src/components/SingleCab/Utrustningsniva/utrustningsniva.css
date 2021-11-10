@@ -36,6 +36,7 @@
 }
 
 .flexbox-utrustningsniva-outer-container {
+  /* border: 2px solid blue; */
   width: 100vw;
   /* height: 500px; */
   height: 100%;
@@ -58,7 +59,7 @@
 }
 
 .flexbox-utrustningsniva-text-container {
-  /* border: 2px solid purple; */
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   width: 40%;

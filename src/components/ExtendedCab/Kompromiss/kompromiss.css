@@ -1,11 +1,13 @@
 @font-face {
-  font-family: 'Eina01-Regular';
-  src: local('Eina01-Regular'), url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+  font-family: "Eina01-Regular";
+  src: local("Eina01-Regular"),
+    url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Evogria";
-  src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+  src: local("Evogria"),
+    url(../../../fonts/evogria-cufonfonts/Evogria.otf) format("opentype");
 }
 
 @font-face {
@@ -13,36 +15,60 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
+@media only screen and (max-width: 575px) {
+  body .flexbox-kompromiss-heading-container h2 {
+    font-family: "Evogria", "ROboto-Condensed", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  body .flexbox-kompromiss-inner-container {
+    border: 2px solid pink;
+    flex-direction: column;
+  }
+
+  body .flexbox-kompromiss-text-container {
+    min-width: 280px;
+  }
+}
+
 .flexbox-kompromiss-outer-container {
   /* border: 2px solid blue; */
   background-color: white;
   justify-content: center;
-  height: 480px;
+  /* height: 480px; */
+  height: 100%;
   width: 100vw;
   display: flex;
+  padding: 50px 0;
 }
 
 .flexbox-kompromiss-inner-container {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  /* border: 2px solid pink; */
+  justify-content: space-evenly;
   width: 75%;
+  max-width: 1750px;
 }
 
 .flexbox-kompromiss-text-container {
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 2px solid purple; */
-  width: 75%;
-  height: 70%;
+  width: 80%;
+  max-width: 700px;
+  height: 100%;
   text-align: left;
+  padding-right: 10px;
 }
 
 .flexbox-kompromiss-heading-container {
-
 }
 
 .flexbox-kompromiss-heading-container h2 {
@@ -60,11 +86,10 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 100;
-  color: #C31631;
+  color: #c31631;
 }
 
 .flexbox-kompromiss-paragraph-container {
-
 }
 
 .flexbox-kompromiss-paragraph-container p {
@@ -81,9 +106,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 330px;
+  justify-content: center;
+  /* height: 330px; */
+  height: auto;
   width: 240px;
-  padding-top: 3%;
+  /* padding-top: 3%; */
 }
 
 .flexbox-kompromiss-image-container button {
@@ -94,13 +121,13 @@
 }
 
 .flexbox-kompromiss-image-container button:hover {
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
   color: black;
 }
 
 .flexbox-kompromiss-image-container button:hover a {
   color: black;
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
 }
 
 .flexbox-kompromiss-image-container button a {

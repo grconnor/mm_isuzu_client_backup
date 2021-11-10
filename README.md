@@ -12,7 +12,7 @@
 - Image squash in single cab Personlig.
 - Anlaggningar padding to make them centered.
 - Anlaggningar padding top.
-- 
+- Modeller page fix footer height.
 
 # Fixes:
 
