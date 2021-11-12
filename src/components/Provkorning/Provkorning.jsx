@@ -53,7 +53,7 @@ const Provkorning = () => {
 
   return (
     <>
-      <div className="Flexbox-provkorning-main-container">
+      <div className="flexbox-provkorning-main-container">
         <div className="flexbox-provkorning-image-container">
           <div className="flexbox-provkorning-image-text-container">
             <h1 id="provkorning-heading1">Boka Provkörning</h1>
