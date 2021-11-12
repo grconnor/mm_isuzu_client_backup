@@ -15,6 +15,8 @@
 - Modeller page fix footer height.
 - Modeller Responsive.
 - ExtendedCab main heading.
+- Padding in Provkorning component.
+- 
 
 # Fixes:
 
