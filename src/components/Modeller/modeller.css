@@ -13,6 +13,16 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
+@media only screen and (max-width: 850px) {
+  body .flexbox-modeller-container {
+    flex-direction: column;
+  }
+
+  body .flexbox-modeller-item {
+    margin-bottom: 20px;
+  }
+}
+
 .flexbox-modeller-outer-container {
   border: 3px solid black;
   background-color: white;
@@ -63,9 +73,11 @@
 }
 
 .flexbox-modeller-item a img:hover {
-  /* background-color: red; */
+  box-shadow: 5px black;
+  background-color: red;
   transform: scale(1.5);
   -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
   -webkit-transform: scale(1.5);
 }
 
