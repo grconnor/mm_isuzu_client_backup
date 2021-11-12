@@ -13,32 +13,50 @@
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 }
 
+@media only screen and (max-width: 1165px) {
+  body .flexbox-utrymme-inner-container {
+    flex-direction: column;
+  }
+
+  body .flexbox-utrymme-text-container {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
+
 .flexbox-utrymme-outer-container {
   /* border: 2px solid blue; */
   background-color: white;
   justify-content: center;
-  height: 480px;
+  /* height: 480px; */
+  height: 100%;
   width: 100vw;
   display: flex;
+  padding: 50px 0;
 }
 
 .flexbox-utrymme-inner-container {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   /* border: 2px solid pink; */
   width: 75%;
+  max-width: 1260px;
+  min-width: 305px;
 }
 
 .flexbox-utrymme-text-container {
+  /* border: 2px solid purple; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 2px solid purple; */
   width: 75%;
-  height: 70%;
+  max-width: 850px;
+  /* height: 100%; */
   text-align: left;
+  padding-right: 10px;
 }
 
 .flexbox-utrymme-heading-container {
@@ -81,9 +99,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 330px;
+  justify-content: center;
+  height: 100%;
   width: 240px;
-  padding-top: 3%;
+  /* padding-top: 3%; */
 }
 
 .flexbox-utrymme-image-container button {

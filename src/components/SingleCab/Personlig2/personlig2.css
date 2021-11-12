@@ -14,8 +14,17 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
+  body .flexbox-personlig2-image-container {
+    width: 70%;
+    height: auto;
+    min-width: 320px;
+  }
 
+  body .flexbox-personlig2-image-container img {
+    height: auto;
+    width: 100%;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 521px) {
@@ -36,7 +45,7 @@
   }
 
   body #personlig2-image {
-    padding: 25px;
+    /* padding: 25px; */
   }
 
   body .flexbox-personlig2-outer-container {
@@ -74,14 +83,6 @@ img { max-width: 100%; height: auto; }
   padding: 50px 0;
 }
 
-.flexbox-personlig2-text-container {
-  display: flex;
-  position: relative;
-  width: 45vw;
-  height: 300px;
-  text-align: left;
-}
-
 .flexbox-personlig2-heading-container {
   /* border: 2px solid green; */
   display: flex;
@@ -89,7 +90,7 @@ img { max-width: 100%; height: auto; }
   flex-direction: column;
   width: 40%;
   max-width: 688px;
-  min-width: 320px;
+  min-width: 300px;
   height: 65%;
 }
 
@@ -148,12 +149,18 @@ img { max-width: 100%; height: auto; }
 }
 
 .flexbox-personlig2-button-container button:hover {
-  background-color2: #BFBFBF;
+  background-color: #BFBFBF;
 }
 
 .flexbox-personlig2-button-container button:hover a {
   background-color: #BFBFBF;
   color: black;
+}
+
+.flexbox-personlig2-image-container {
+  /* border: 2px solid red; */
+  height: 325;
+  width: 520;
 }
 
 .flexbox-personlig2-image-container img {

@@ -1,9 +1,9 @@
 // Library Imports:
-import "./utrustningsnivadouble.css"
+import "./utrustningsnivadouble.css";
 import React from "react";
-import { Container, Image, Button, Icon } from "semantic-ui-react"
 
 // Component Imports:
+import { Image, Button, Icon } from "semantic-ui-react";
 
 // Image Imports:
 import xrsIcon from "../../../images/general/xrs_icon.png";
@@ -22,21 +22,21 @@ const UtrustningsnivaDouble = () => {
     <>
       <div className="flexbox-utrustningdouble-outer-container">
         <div className="flexbox-utrustningdouble-heading-container">
-          <h2 id="utrustning-heading">
+          <h2 id="utrustningdouble-heading">
             Utrustningsnivåer
           </h2>
-          <p id="utrustning-heading-para">
+          <p id="utrustningdouble-heading-para">
             Här kan du se vad som bland annat ingår som standard i de olika utrustningsnivåerna. Oavsett om du söker en pickup för bara jobb eller något mer så har vi en modell för dig. Med 4 olika utrustningsnivåer har vi just det du söker.
           </p>
         </div>
         <div className="flexbox-utrustningdouble-top-container">
           <div className="flexbox-utrustningdouble-item flexbox-utrustningdouble-item-1">
-            <img src={xrsIcon} id="xrs-icon" alt="XRS" />
-            <img src={xrsCar} id="xrs-car" alt="XRS-Car" />
+            <Image src={xrsIcon} id="xrs-icon" alt="XRS" />
+            <Image src={xrsCar} id="xrs-car" alt="XRS-Car" />
             <h4 id="xrs-heading">
               Ett verktyg för all jobb
             </h4>
-            <div className="flexbox-utrustningdouble-bullet-list">
+            <div className="flexbox--utrustningdouble-bullet-list">
               <ul className="utrustningdouble-bullet">
                 <li>Dubbel-Din Stereo med Bluetooth</li>
                 <li>Manuell växellåda</li>
@@ -47,8 +47,8 @@ const UtrustningsnivaDouble = () => {
             </div>
           </div>
           <div className="flexbox-utrustningdouble-item flexbox-utrustningdouble-item-2">
-            <img src={xrmIcon} id="xrm-icon" alt="XRM" />
-            <img src={xrmCar} id="xrm-car" alt="XRM-Car" />
+            <Image src={xrmIcon} id="xrm-icon" alt="XRM" />
+            <Image src={xrmCar} id="xrm-car" alt="XRM-Car" />
             <h4 id="xrm-heading">
               Utöver XRS erbjuder XRM:
             </h4>
@@ -65,8 +65,8 @@ const UtrustningsnivaDouble = () => {
         </div>
         <div className="flexbox-utrustningdouble-bottom-container">
           <div className="flexbox-utrustningdouble-item flexbox-utrustningdouble-item-3">
-            <img src={xrlIcon} id="xrl-icon" alt="XRL" />
-            <img src={xrlCar} id="xrl-car" alt="XRL-Car" />
+            <Image src={xrlIcon} id="xrl-icon" alt="XRL" />
+            <Image src={xrlCar} id="xrl-car" alt="XRL-Car" />
             <h4 id="xrl-heading">
               Utöver XRM erbjuder XRL:
             </h4>
@@ -84,12 +84,12 @@ const UtrustningsnivaDouble = () => {
             </div>
           </div>
           <div className="flexbox-utrustningdouble-item flexbox-utrustningdouble-item-4">
-            <img src={xrxIcon} id="xrx-icon" alt="XRX" />
-            <img src={xrxCar} id="xrx-car" alt="XRX-Car" />
+            <Image src={xrxIcon} id="xrx-icon" alt="XRX" />
+            <Image src={xrxCar} id="xrx-car" alt="XRX-Car" />
             <h4 id="xrx-heading">
               Utöver XRL erbjuder XRX:
             </h4>
-            <div className="flexbox-utrustningdouble-bullet-list">
+            <div className="flexbox-utrustning-bullet-list">
               <ul className="utrustningdouble-bullet">
                 <li>9" infotainment med pekskärm, trådlös Apple CarPlay/Andoid Auto</li>
                 <li>8 högtalare med Live Surround</li>
@@ -102,7 +102,7 @@ const UtrustningsnivaDouble = () => {
         </div>
         <div className="utrustningdouble-button">
           <button type="button" id="utrustningdouble-button">
-            <a href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">Se Utrustningsnivåer</a>
+            <a href="https://www.isuzusverige.se/modeller/double-cab/utrustning/">Se Utrustningslista</a>
           </button>
         </div>
       </div>

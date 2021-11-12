@@ -1,16 +1,117 @@
 @font-face {
-  font-family: 'Eina01-Regular';
-  src: local('Eina01-Regular'), url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+  font-family: "Eina01-Regular";
+  src: local("Eina01-Regular"),
+    url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Evogria";
-  src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+  src: local("Evogria"),
+    url(../../../fonts/evogria-cufonfonts/Evogria.otf) format("opentype");
 }
 
 @font-face {
   font-family: "Roboto-Condensed";
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+}
+
+@media only screen and (max-width: 1550px) {
+  body #xrs-car,
+  body #xrm-car,
+  body #xrl-car,
+  body #xrx-car {
+    /* height: 288px; */
+    /* width: 520px; */
+    height: 216px;
+    width: 390px;
+  }
+
+  body #xrs-icon,
+  body #xrm-icon,
+  body #xrl-icon,
+  body #xrx-icon {
+    height: 38.25px;
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body .flexbox-utrustningdouble-heading-container h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 505px) {
+  body .flexbox-utrustningdouble-heading-container h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 595px) {
+  body .flexbox-utrustning-heading-container {
+    width: 90% !important;
+  }
+} */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 805px) {
+  body .flexbox-utrustningdouble-heading-container {
+    width: 80%;
+  }
+
+  body .flexbox-utrustningdouble-heading-container h2 {
+    width: 80%;
+  }
+}
+/* Medium devices max width (WAS 595px, landscape tablets, 768px and up) */
+@media only screen and (max-width: 1070px) {
+  body .flexbox-utrustningdouble-top-container {
+    flex-direction: column;
+  }
+
+  body .flexbox-utrustningdouble-bottom-container {
+    flex-direction: column;
+  }
+
+  body .flexbox-utrustningdouble-heading-container {
+    width: 90% !important;
+  }
+
+  body .flexbox-utrustningdouble-outer-container {
+    height: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  body .utrustningdouble-button {
+    width: 230px;
+  }
+
+  body #xrs-car,
+  body #xrm-car,
+  body #xrl-car,
+  body #xrx-car {
+    /* height: 288px; */
+    height: auto;
+    /* width: 520px; */
+    /* height: 288px; */
+    width: 520px;
+  }
+
+  body #xrs-icon,
+  body #xrm-icon,
+  body #xrl-icon,
+  body #xrx-icon {
+    height: 51px;
+    width: 80px;
+  }
+
+  body .flexbox-utrustningdouble-item {
+    width: 100%;
+    min-width: unset;
+  }
 }
 
 ul.utrustningdouble-bullet li {
@@ -27,33 +128,37 @@ ul.utrustningdouble-bullet li {
 }
 
 .flexbox-utrustningdouble-outer-container {
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   position: relative;
   align-items: center;
   background-color: #D9D9D9;
   width: 100vw;
-  height: 2000px;
+  /* height: 1900px; */
+  min-height: 100%;
+  padding-bottom: 5%;
   /* margin-left: -155px; */
-
 }
 
 .flexbox-utrustningdouble-heading-container {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding-top: 5%;
   justify-content: center;
+  width: 60%;
 }
 
 .flexbox-utrustningdouble-heading-container h2 {
-  font-family: "Evogria";
+  font-family: "Evogria", sans-serif;
   font-size: 50px;
   line-height: 60px;
   font-weight: 100;
   color: #595959;
   text-align: left;
   /* border: 3px solid red; */
-  width: 50vw;
+  width: 100%;
   font-style: normal;
   margin: 33px 0px 20px;
 }
@@ -62,7 +167,7 @@ ul.utrustningdouble-bullet li {
   /* border: 3px solid purple; */
   font-family: "Roboto-Condensed", sans-serif;
   font-size: 20px;
-  width: 75vw;
+  width: 100%;
   line-height: 29px;
   font-weight: 400;
   color: #595959;
@@ -72,23 +177,37 @@ ul.utrustningdouble-bullet li {
 }
 
 .flexbox-utrustningdouble-top-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
-  padding-top: 5%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 25px;
 }
 
 .flexbox-utrustningdouble-bottom-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .flexbox-utrustningdouble-item {
-  display: block;
-  flex-direction: row;
+  /* border: 2px solid blue; */
+  width: 40%;
+  min-width: 425px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   padding-top: 5%;
   text-align: left;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .flexbox-utrustningdouble-item h4 {
@@ -100,35 +219,36 @@ ul.utrustningdouble-bullet li {
   color: #595959;
 }
 
-.flexbox-utrustningdouble-item-3, .flexbox-utrustningdouble-item-4 {
+.flexbox-utrustningdouble-item-3,
+.flexbox-utrustningdouble-item-4 {
   padding: 56px 2%;
 }
 
-#xrs-icon, #xrm-icon, #xrl-icon, #xrx-icon {
+#xrs-icon,
+#xrm-icon,
+#xrl-icon,
+#xrx-icon {
   height: 51px;
   width: 80px;
 }
 
-#xrs-car, #xrm-car, #xrl-car, #xrx-car {
-  height: 288px;
-  width: 520px;
+#xrs-car,
+#xrm-car,
+#xrl-car,
+#xrx-car {
+  /* height: 288px; */
+  height: auto;
+  width: 100%;
+  /* width: 520px; */
+  /* max-width: 100%; */
+  min-width: 260px;
 }
-
-/* .ui.animated.button {
-  color: white;
-  background-color: #595959;
-  font-family: "Evogria";
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 10%;
-} */
 
 .utrustningdouble-button {
   /* border: 2px solid red; */
   width: 20%;
   height: 40px;
+  min-width: 220px;
 }
 
 .utrustningdouble-button button {
@@ -136,6 +256,8 @@ ul.utrustningdouble-bullet li {
   background-color: #404040;
   height: 100%;
   width: 100%;
+  min-width: 215px;
+  max-width: 342px;
 }
 
 .utrustningdouble-button button a {
@@ -148,15 +270,27 @@ ul.utrustningdouble-bullet li {
   background-color: #404040;
   height: 100%;
   width: 100%;
+  max-width: 342px;
   border: none;
 }
 
 .utrustningdouble-button button:hover {
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
   color: black;
 }
 
 .utrustningdouble-button button:hover a {
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
   color: black;
 }
+
+/* .ui.animated.button {
+  color: white;
+  background-color: #595959;
+  font-family: "Evogria";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10%;
+} */

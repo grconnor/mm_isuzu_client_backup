@@ -26,8 +26,9 @@
 
 @media only screen and (max-width: 1125px) {
   body .flexbox-kompromiss-inner-container {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     flex-direction: column;
+    min-width: 310px;
   }
 
   body .flexbox-kompromiss-text-container {

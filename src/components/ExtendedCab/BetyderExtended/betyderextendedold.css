@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Eina01-Regular';
+  src: local('Eina01-Regular'), url(../../../fonts/Eina01-Regular/Eina01-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Evogria";
+  src: local('Evogria'), url(../../../fonts/evogria-cufonfonts/Evogria.otf) format('opentype');
+}
+
+.flexbox-betyderextended-outer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #595959;
+  width: 100vw;
+  /* margin-left: -157px; */
+  height: 800px;
+}
+
+.flexbox-betyderextended-heading-container {
+  margin-bottom: 5%;
+}
+
+.flexbox-betyderextended-heading-container h1 {
+  display: flex;
+  position: relative;
+  color: white;
+  justify-content: center;
+  padding-top: 4%;
+  font-family: "Evogria";
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
+
+.flexbox-betyderextended-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-top: 0;
+  margin-left: 150px;
+  background-color: #595959;
+  width: 80vw;
+  height: 725px;
+  height: inherit;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexbox-betyderextended-item {
+  display: block;
+  margin-top: -5%;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  height: 588px;
+  width: 300px;
+  font-weight: bold;
+  font-family: "Eina01-Regular";
+}
+
+.flexbox-betyderextended-item h1 {
+  font-weight: 100;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 35px;
+  font-family: "Evogria";
+  color: white;
+}
+
+.flexbox-betyderextended-item p {
+  height: 200px;
+  width: 288px;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Roboto-Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  padding-right: 15%;
+}
+
+.flexbox-betyderextended-item-image img {
+  height: 240px;
+  width: 240px;
+}
+
+.flexbox-betyderextended-item .ui.button {
+  font-family: "Evogria", "Roboto-Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #C31631;
+  color: white;
+  line-height: 27px;
+  font-style: normal;
+  height: 9%;
+}
+
+.flexbox-betyderextended-item .ui.animated.button .visible.content {
+  font-weight: 400;
+}
+
+.flexbox-betyderextended-item-3 .ui.animated.button {
+  margin-top: 10%;
+}
+
+.flexbox-betyderextended-item-1 {
+  
+}
+
+.flexbox-betyderextended-item-2 {
+  
+}
+
+.flexbox-betyderextended-item-3 {
+  
+}
+
+.flexbox-betyderextended-item-4 {
+  
+}

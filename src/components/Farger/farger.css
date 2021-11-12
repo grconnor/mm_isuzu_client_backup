@@ -124,7 +124,7 @@
 }
 
 .flexbox-farger-top-container {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -142,7 +142,7 @@
 }
 
 .flexbox-farger-bottom-container {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   display: flex;
   flex-direction: row;
   justify-content: center;
